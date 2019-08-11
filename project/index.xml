@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Nils Rottmann | Research Page</title>
+    <title>Projects | Nils Rottmann | Homepage</title>
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 07 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 10 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Projects</title>
       <link>/project/</link>
     </image>
+    
+    <item>
+      <title>Lego Robots</title>
+      <link>/project/legorobots/</link>
+      <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/project/legorobots/</guid>
+      <description>&lt;p&gt;Take a look at what our students achieved during the Informatik-Summer-Camp 2019 hosted by the University of Lübeck. They built and programmed Lego Mindstorm Robots to participate in the Sumo Wrestling Challenge.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/vguwZxixSgA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
     
     <item>
       <title>MIRANA</title>
