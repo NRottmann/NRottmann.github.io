@@ -5,12 +5,20 @@
     <link>/authors/admin/</link>
       <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Nils Rottmann | Homepage</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 21 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 05 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Nils Rottmann | Homepage</title>
       <link>/authors/admin/</link>
     </image>
+    
+    <item>
+      <title>Loop Closure Detection in Closed Environments</title>
+      <link>/publication/ecmr2019/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/ecmr2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cataglyphis ant navigation strategies solve the global localization problem in robots with binary sensors</title>
@@ -37,9 +45,9 @@
     <item>
       <title></title>
       <link>/authors/admin/</link>
-      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;In 2017, Nils Rottmann received his M.Sc. in Theoretical Mechanical Engineering from the Hamburg University of Technology. During his studies he worked as intern at the UNESP in Ilha Solteira, Brazil, and completed an exchange semester at the Tecnico Lisboa, Portugal. In January 2018, he joined the Institute for Robotics and Cognitive Systems at the University of Lübeck as a Research Associate. The focus of his work lies on autonomous systems.&lt;/p&gt;
+      <description>&lt;p&gt;Mobile Robots. Sensors. Machine Learning. Dancing.&lt;/p&gt;
 </description>
     </item>
     

@@ -5,12 +5,20 @@
     <link>/authors/ralf-bruder/</link>
       <atom:link href="/authors/ralf-bruder/index.xml" rel="self" type="application/rss+xml" />
     <description>Ralf Bruder</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 21 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 05 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Ralf Bruder</title>
       <link>/authors/ralf-bruder/</link>
     </image>
+    
+    <item>
+      <title>Loop Closure Detection in Closed Environments</title>
+      <link>/publication/ecmr2019/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/ecmr2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cataglyphis ant navigation strategies solve the global localization problem in robots with binary sensors</title>
