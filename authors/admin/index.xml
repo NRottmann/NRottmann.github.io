@@ -5,12 +5,28 @@
     <link>/authors/admin/</link>
       <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Nils Rottmann | Homepage</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 06 Sep 2019 20:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 08 Nov 2019 14:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Nils Rottmann | Homepage</title>
       <link>/authors/admin/</link>
     </image>
+    
+    <item>
+      <title>Lübecker Nachrichten reports about MIRANA</title>
+      <link>/post/ln_article/</link>
+      <pubDate>Fri, 08 Nov 2019 14:00:00 +0000</pubDate>
+      <guid>/post/ln_article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UKSH Opening, Lübeck</title>
+      <link>/post/ukshopening/</link>
+      <pubDate>Fri, 08 Nov 2019 14:00:00 +0000</pubDate>
+      <guid>/post/ukshopening/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ECMR 2019, Prag</title>
@@ -62,7 +78,7 @@
     <item>
       <title></title>
       <link>/authors/admin/</link>
-      <pubDate>Fri, 06 Sep 2019 20:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Nov 2019 14:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
       <description>&lt;p&gt;Mobile Robots. Sensors. Machine Learning. Dancing.&lt;/p&gt;
 </description>

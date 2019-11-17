@@ -5,12 +5,28 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 06 Sep 2019 20:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 08 Nov 2019 14:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>Lübecker Nachrichten reports about MIRANA</title>
+      <link>/post/ln_article/</link>
+      <pubDate>Fri, 08 Nov 2019 14:00:00 +0000</pubDate>
+      <guid>/post/ln_article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UKSH Opening, Lübeck</title>
+      <link>/post/ukshopening/</link>
+      <pubDate>Fri, 08 Nov 2019 14:00:00 +0000</pubDate>
+      <guid>/post/ukshopening/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ECMR 2019, Prag</title>

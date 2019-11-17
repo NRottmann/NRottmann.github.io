@@ -5,12 +5,36 @@
     <link>/tags/mobile-robotics/</link>
       <atom:link href="/tags/mobile-robotics/index.xml" rel="self" type="application/rss+xml" />
     <description>Mobile Robotics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 08 Oct 2019 08:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 09 Nov 2019 16:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Mobile Robotics</title>
       <link>/tags/mobile-robotics/</link>
     </image>
+    
+    <item>
+      <title>MIRANA - A mobile robotic assistant</title>
+      <link>/talk/nook2019/</link>
+      <pubDate>Sat, 09 Nov 2019 16:00:00 +0000</pubDate>
+      <guid>/talk/nook2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lübecker Nachrichten reports about MIRANA</title>
+      <link>/post/ln_article/</link>
+      <pubDate>Fri, 08 Nov 2019 14:00:00 +0000</pubDate>
+      <guid>/post/ln_article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UKSH Opening, Lübeck</title>
+      <link>/post/ukshopening/</link>
+      <pubDate>Fri, 08 Nov 2019 14:00:00 +0000</pubDate>
+      <guid>/post/ukshopening/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Autumn School</title>
