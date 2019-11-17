@@ -5,12 +5,28 @@
     <link>/tags/mobile-robotics/</link>
       <atom:link href="/tags/mobile-robotics/index.xml" rel="self" type="application/rss+xml" />
     <description>Mobile Robotics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 05 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 08 Oct 2019 08:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Mobile Robotics</title>
       <link>/tags/mobile-robotics/</link>
     </image>
+    
+    <item>
+      <title>Autumn School</title>
+      <link>/talk/autumnschool2019/</link>
+      <pubDate>Tue, 08 Oct 2019 08:00:00 +0000</pubDate>
+      <guid>/talk/autumnschool2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MIRANA</title>
+      <link>/talk/hhberlin2019/</link>
+      <pubDate>Thu, 12 Sep 2019 12:50:00 +0000</pubDate>
+      <guid>/talk/hhberlin2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Loop Closure Detection in Closed Environments</title>
@@ -21,26 +37,11 @@
     </item>
     
     <item>
-      <title>MIRANA Pitch</title>
-      <link>/talk/hhberlin2019/</link>
-      <pubDate>Tue, 03 Sep 2019 13:00:00 +0000</pubDate>
-      <guid>/talk/hhberlin2019/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lego Robots</title>
+      <title>Our Common Future</title>
       <link>/project/legorobots/</link>
       <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
       <guid>/project/legorobots/</guid>
-      <description>&lt;p&gt;Take a look at what our students achieved during the Informatik-Summer-Camp 2019 hosted by the University of Lübeck. They built and programmed Lego Mindstorm Robots to participate in the Sumo Wrestling Challenge.&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/vguwZxixSgA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
+      <description></description>
     </item>
     
     <item>

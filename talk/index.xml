@@ -5,7 +5,7 @@
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 03 Sep 2019 13:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 08 Oct 2019 08:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Recent &amp; Upcoming Talks</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
-      <title>MIRANA Pitch</title>
+      <title>Autumn School</title>
+      <link>/talk/autumnschool2019/</link>
+      <pubDate>Tue, 08 Oct 2019 08:00:00 +0000</pubDate>
+      <guid>/talk/autumnschool2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MIRANA</title>
       <link>/talk/hhberlin2019/</link>
-      <pubDate>Tue, 03 Sep 2019 13:00:00 +0000</pubDate>
+      <pubDate>Thu, 12 Sep 2019 12:50:00 +0000</pubDate>
       <guid>/talk/hhberlin2019/</guid>
       <description></description>
     </item>

@@ -5,7 +5,7 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 05 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 08 Oct 2019 08:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
@@ -13,41 +13,41 @@
     </image>
     
     <item>
-      <title>Mapping</title>
-      <link>/tags/mapping/</link>
-      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/mapping/</guid>
+      <title>Localization</title>
+      <link>/tags/localization/</link>
+      <pubDate>Tue, 08 Oct 2019 08:00:00 +0000</pubDate>
+      <guid>/tags/localization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mobile Robotics</title>
       <link>/tags/mobile-robotics/</link>
-      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Oct 2019 08:00:00 +0000</pubDate>
       <guid>/tags/mobile-robotics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SLAM</title>
-      <link>/tags/slam/</link>
-      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/slam/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Navigation</title>
       <link>/tags/navigation/</link>
-      <pubDate>Tue, 03 Sep 2019 13:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Oct 2019 08:00:00 +0000</pubDate>
       <guid>/tags/navigation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SLAM</title>
+      <link>/tags/slam/</link>
+      <pubDate>Tue, 08 Oct 2019 08:00:00 +0000</pubDate>
+      <guid>/tags/slam/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Planning</title>
       <link>/tags/planning/</link>
-      <pubDate>Tue, 03 Sep 2019 13:00:00 +0000</pubDate>
+      <pubDate>Thu, 12 Sep 2019 12:50:00 +0000</pubDate>
       <guid>/tags/planning/</guid>
       <description></description>
     </item>
@@ -55,16 +55,16 @@
     <item>
       <title>Speech Recognition</title>
       <link>/tags/speech-recognition/</link>
-      <pubDate>Tue, 03 Sep 2019 13:00:00 +0000</pubDate>
+      <pubDate>Thu, 12 Sep 2019 12:50:00 +0000</pubDate>
       <guid>/tags/speech-recognition/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Localization</title>
-      <link>/tags/localization/</link>
-      <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/localization/</guid>
+      <title>Mapping</title>
+      <link>/tags/mapping/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/mapping/</guid>
       <description></description>
     </item>
     

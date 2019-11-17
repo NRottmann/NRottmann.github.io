@@ -3,8 +3,92 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/talk/autumnschool2019/</loc>
+    <lastmod>2019-10-08T08:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/localization/</loc>
+    <lastmod>2019-10-08T08:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mobile-robotics/</loc>
+    <lastmod>2019-10-08T08:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/navigation/</loc>
+    <lastmod>2019-10-08T08:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-10-08T08:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2019-10-08T08:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/slam/</loc>
+    <lastmod>2019-10-08T08:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-10-08T08:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/talk/hhberlin2019/</loc>
+    <lastmod>2019-09-12T12:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/planning/</loc>
+    <lastmod>2019-09-12T12:50:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/speech-recognition/</loc>
+    <lastmod>2019-09-12T12:50:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/authors/admin/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-06T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2019-09-06T20:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/ecmr2019/</loc>
+    <lastmod>2019-09-06T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/hh19_berlin/</loc>
+    <lastmod>2019-09-06T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-09-06T20:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -15,12 +99,6 @@
   
   <url>
     <loc>/authors/achim-schweikard/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -43,18 +121,6 @@
   </url>
   
   <url>
-    <loc>/tags/mobile-robotics/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/publication_types/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -68,46 +134,6 @@
   <url>
     <loc>/authors/ralf-bruder/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/slam/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/talk/hhberlin2019/</loc>
-    <lastmod>2019-09-03T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/navigation/</loc>
-    <lastmod>2019-09-03T13:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/planning/</loc>
-    <lastmod>2019-09-03T13:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
-    <lastmod>2019-09-03T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/speech-recognition/</loc>
-    <lastmod>2019-09-03T13:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -130,27 +156,6 @@
   <url>
     <loc>/publication/biosignals2019/</loc>
     <lastmod>2019-02-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/localization/</loc>
-    <lastmod>2019-02-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/ecmr2019/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/hh19_berlin/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
