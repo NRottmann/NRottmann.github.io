@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Theses | Nils Rottmann | Homepage</title>
+    <link>/thesis/</link>
+      <atom:link href="/thesis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Theses</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Theses</title>
+      <link>/thesis/</link>
+    </image>
+    
+    <item>
+      <title>HIBO: Hierarchical Acquisition Functions for Bayesian Optimization</title>
+      <link>/thesis/michaelwerner/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/thesis/michaelwerner/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Bayesian Optimization is a powerful method to optimize black-box derivative-free functions, with high evaluation costs. For instance, applications can be found in the context of robotics, animation design or molecular design. However, Bayesian Optimization is not able to scale into higher dimensions, equivalent to optimizing more than 20 parameters. This thesis introduces HIBO, a new hierarchical algorithm in the context of high dimensional Bayesian Optimization. The algorithm uses an automatic feature generation. The features are used to condition the parameters, to enable faster optimization. The performance of HIBO is compared to existing high dimensional extensions of Bayesian Optimization on three common benchmark functions. Additionally, an air hockey simulation is used to examine the capability in a task-oriented setting. The conducted experiments show that HIBO performs similar to the basic Bayesian Optimization algorithm, independent from the dimensionality of the given problem. Hence, the proposed HIBO algorithm does not scale Bayesian Optimization to higher dimensions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simultaneous Localization and Mapping with Room Labeling</title>
+      <link>/thesis/nicostudt/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/thesis/nicostudt/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;The focus of this work is on extending the functionality of the robot platform
+Loomo. Using cartography and navigation methods, the basis for an autonomous system is created. In addition, the recognition and storage of AR
+markers simplifies human-robot interaction by enabling targeted navigation
+to specific locations. The implementation of the used software components
+ROS, Movebase, RTAB-Map and ALVAR is described in detail and tested in
+an experimental setting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Complete coverage path planning for low cost robots</title>
+      <link>/thesis/robindenz/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/thesis/robindenz/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;The demand among the population for household robots continues to rise.
+These include in particular mobile cleaning and lawn mowing robots. These
+are usually very expensive and still very inefficient. Especially for lawn mowing robots, it is essential to have visited the entire working space in order to
+perform their task correctly. However, the current state of the art is still random walk algorithms, which are very unreliable and inefficient. The present
+bachelor thesis therefore presents a method for intelligent path planning for
+mobile &amp;ldquo;low cost&amp;rdquo;robots using a lawn mower robot. The robot is only equipped
+with binary sensors to detect its position in its working space, which is fraught
+with high uncertainties. By an intelligent representation of the already visited
+working space as well as the path planning inspired by neural networks, the
+lawn mower robot manages to achieve a decisive improvement in efficiency
+compared to the random walk.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Trajectory planning for mobile robots for working area complete coverage under high uncertainty</title>
+      <link>/thesis/alexanderosiik/</link>
+      <pubDate>Fri, 16 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/thesis/alexanderosiik/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;This Bachelor thesis presents an approach for the complete coverage path
+planning (CCPP) problem which occurs for different robotic applications, such
+as autonomous lawn mowers or vaccuum cleaners. Methods used for localization
+[27], map representation [10] and planning [14] are discussed under consideration
+of sensor noise and uncertainty about the own position induced by the movement
+of the robot. An efficient method to solve the CCPP problem under uncertainty is
+proposed and evaluated due to simulations. The results show that under simulated
+conditions, the autonomous lawnmower covers the field of work faster and
+can guarantee complete coverage, in contrast to commercially used techniques.
+Furthermore, an efficient algorithm to divide the working area into smaller areas
+is developed, which leads to an increased computational and storage efficiency.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Development of an electromagnetic Tracking System for use in Medical Interventions</title>
+      <link>/thesis/glennroewekamp/</link>
+      <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/thesis/glennroewekamp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimization of a chlorophyll-sensor for mowing-area-detection for autonomous lawn mowers</title>
+      <link>/thesis/friedrichpodstawa/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/thesis/friedrichpodstawa/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;To make it easier for people to work in the lawn care, there is a long list of robotic lawnmowers. The navigation is a big problem, since the application is usually limited by a perimeter wire. This process means a time as well as financial expense and must be changed. For this purpose, a new method for lawn detection was developed at the Institute of Robotics and Cognitive Systems. A hardware that measures a parameter characteristic of turf plants by optically stimulating chlorophyll synthesis and measuring the resulting chlorophyll fluorescence, and safely distinguishes turf plants from non-organic material has been designed. In this thesis, this sensor system will be further developed into a product-related prototype. The mowing area detection is significantly improved by optimizing the
+sensor under different lighting conditions. Furthermore, the functionality of an
+existing robotic lawnmower system, which will be equipped with the new sensor
+system, will be retained. This should reliably be able to drive over a lawn without
+leaving it.
+Tests show that the mowing area detection was significantly improved with the
+help of the chlorophyll fluorescence sensor. The sensor is thus suitable for outdoor
+use. Sensor hardware and software have been transferred from a field-less system
+to a perfectly functioning mower surface detection sensor.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Localizsation and Control for Trajectory Tracking for Autonomous Lawn Mowers</title>
+      <link>/thesis/ricoklinckenberg/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/thesis/ricoklinckenberg/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;The present bachelor thesis presents the necessary methods for an exact selflocalization by using an Inertial Mesurment Unit (IMU) and the odometry of an
+autonomous lawn mower. This self-localization shall be used in later work together
+with a localization of a particle filter. The required standard models [12] for the
+individual sensor systems were examined and the required parameters determined.
+Measurements were taken with the autonomous lawn mower to develop a Kalman
+filter [15] based on the data obtained. With the help of the Kalman filter and
+a controller which was designed in this thesis, such a self-localization could be
+realized. The results show that the autonomous lawnmower can locate itself under
+simulated conditions with a higher accuracy than with a pure localization via
+odometry. However, final measurements show that disturbances of the IMU occur
+within the autonomous lawn mower, so that a final overall behaviour cannot be
+implemented with the current architecture of the autonomous lawn mower.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simultaneous Localization and Mapping for Autonomous Lawn Mowers</title>
+      <link>/thesis/svenandresen/</link>
+      <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/thesis/svenandresen/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

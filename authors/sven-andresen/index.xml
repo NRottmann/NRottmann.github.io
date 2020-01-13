@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sven Andresen | Nils Rottmann | Homepage</title>
+    <link>/authors/sven-andresen/</link>
+      <atom:link href="/authors/sven-andresen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sven Andresen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 23 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Sven Andresen</title>
+      <link>/authors/sven-andresen/</link>
+    </image>
+    
+    <item>
+      <title>Simultaneous Localization and Mapping for Autonomous Lawn Mowers</title>
+      <link>/thesis/svenandresen/</link>
+      <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/thesis/svenandresen/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

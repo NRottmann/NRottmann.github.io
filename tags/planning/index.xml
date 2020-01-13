@@ -5,7 +5,7 @@
     <link>/tags/planning/</link>
       <atom:link href="/tags/planning/index.xml" rel="self" type="application/rss+xml" />
     <description>Planning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 12 Sep 2019 12:50:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Planning</title>
@@ -13,11 +13,75 @@
     </image>
     
     <item>
+      <title>Simultaneous Localization and Mapping with Room Labeling</title>
+      <link>/thesis/nicostudt/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/thesis/nicostudt/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;The focus of this work is on extending the functionality of the robot platform
+Loomo. Using cartography and navigation methods, the basis for an autonomous system is created. In addition, the recognition and storage of AR
+markers simplifies human-robot interaction by enabling targeted navigation
+to specific locations. The implementation of the used software components
+ROS, Movebase, RTAB-Map and ALVAR is described in detail and tested in
+an experimental setting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Complete coverage path planning for low cost robots</title>
+      <link>/thesis/robindenz/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/thesis/robindenz/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;The demand among the population for household robots continues to rise.
+These include in particular mobile cleaning and lawn mowing robots. These
+are usually very expensive and still very inefficient. Especially for lawn mowing robots, it is essential to have visited the entire working space in order to
+perform their task correctly. However, the current state of the art is still random walk algorithms, which are very unreliable and inefficient. The present
+bachelor thesis therefore presents a method for intelligent path planning for
+mobile &amp;ldquo;low cost&amp;rdquo;robots using a lawn mower robot. The robot is only equipped
+with binary sensors to detect its position in its working space, which is fraught
+with high uncertainties. By an intelligent representation of the already visited
+working space as well as the path planning inspired by neural networks, the
+lawn mower robot manages to achieve a decisive improvement in efficiency
+compared to the random walk.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>MIRANA</title>
       <link>/talk/hhberlin2019/</link>
       <pubDate>Thu, 12 Sep 2019 12:50:00 +0000</pubDate>
       <guid>/talk/hhberlin2019/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Trajectory planning for mobile robots for working area complete coverage under high uncertainty</title>
+      <link>/thesis/alexanderosiik/</link>
+      <pubDate>Fri, 16 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/thesis/alexanderosiik/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;This Bachelor thesis presents an approach for the complete coverage path
+planning (CCPP) problem which occurs for different robotic applications, such
+as autonomous lawn mowers or vaccuum cleaners. Methods used for localization
+[27], map representation [10] and planning [14] are discussed under consideration
+of sensor noise and uncertainty about the own position induced by the movement
+of the robot. An efficient method to solve the CCPP problem under uncertainty is
+proposed and evaluated due to simulations. The results show that under simulated
+conditions, the autonomous lawnmower covers the field of work faster and
+can guarantee complete coverage, in contrast to commercially used techniques.
+Furthermore, an efficient algorithm to divide the working area into smaller areas
+is developed, which leads to an increased computational and storage efficiency.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

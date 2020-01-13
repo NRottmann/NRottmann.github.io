@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Friedrich Podstawa | Nils Rottmann | Homepage</title>
+    <link>/authors/friedrich-podstawa/</link>
+      <atom:link href="/authors/friedrich-podstawa/index.xml" rel="self" type="application/rss+xml" />
+    <description>Friedrich Podstawa</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Friedrich Podstawa</title>
+      <link>/authors/friedrich-podstawa/</link>
+    </image>
+    
+    <item>
+      <title>Optimization of a chlorophyll-sensor for mowing-area-detection for autonomous lawn mowers</title>
+      <link>/thesis/friedrichpodstawa/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/thesis/friedrichpodstawa/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;To make it easier for people to work in the lawn care, there is a long list of robotic lawnmowers. The navigation is a big problem, since the application is usually limited by a perimeter wire. This process means a time as well as financial expense and must be changed. For this purpose, a new method for lawn detection was developed at the Institute of Robotics and Cognitive Systems. A hardware that measures a parameter characteristic of turf plants by optically stimulating chlorophyll synthesis and measuring the resulting chlorophyll fluorescence, and safely distinguishes turf plants from non-organic material has been designed. In this thesis, this sensor system will be further developed into a product-related prototype. The mowing area detection is significantly improved by optimizing the
+sensor under different lighting conditions. Furthermore, the functionality of an
+existing robotic lawnmower system, which will be equipped with the new sensor
+system, will be retained. This should reliably be able to drive over a lawn without
+leaving it.
+Tests show that the mowing area detection was significantly improved with the
+help of the chlorophyll fluorescence sensor. The sensor is thus suitable for outdoor
+use. Sensor hardware and software have been transferred from a field-less system
+to a perfectly functioning mower surface detection sensor.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,6 +3,116 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/publication_types/7/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/thesis/michaelwerner/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/humanoid-robotics/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/michael-werner/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mobile-robotics/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/navigation/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/nico-studt/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/optimization/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/planning/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/reinforcement-learning/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/slam/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/thesis/nicostudt/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/thesis/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/thesis/robindenz/</loc>
+    <lastmod>2019-11-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/robin-denz/</loc>
+    <lastmod>2019-11-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/localization/</loc>
     <lastmod>2019-11-09T16:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -14,49 +124,13 @@
   </url>
   
   <url>
-    <loc>/tags/mobile-robotics/</loc>
-    <lastmod>2019-11-09T16:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/navigation/</loc>
-    <lastmod>2019-11-09T16:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2019-11-09T16:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/talk/</loc>
     <lastmod>2019-11-09T16:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/slam/</loc>
-    <lastmod>2019-11-09T16:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-11-09T16:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/authors/admin/</loc>
     <lastmod>2019-11-08T14:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <lastmod>2019-11-08T14:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -82,12 +156,6 @@
   <url>
     <loc>/talk/hhberlin2019/</loc>
     <lastmod>2019-09-12T12:50:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/planning/</loc>
-    <lastmod>2019-09-12T12:50:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -136,12 +204,6 @@
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/publication/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
@@ -171,6 +233,79 @@
   <url>
     <loc>/publication/biosignals2019/</loc>
     <lastmod>2019-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/alexander-osiik/</loc>
+    <lastmod>2018-11-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/thesis/alexanderosiik/</loc>
+    <lastmod>2018-11-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/thesis/glennroewekamp/</loc>
+    <lastmod>2018-11-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/glenn-roewekamp/</loc>
+    <lastmod>2018-11-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/medical-devices/</loc>
+    <lastmod>2018-11-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/sensors/</loc>
+    <lastmod>2018-11-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/friedrich-podstawa/</loc>
+    <lastmod>2018-10-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/thesis/friedrichpodstawa/</loc>
+    <lastmod>2018-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/thesis/ricoklinckenberg/</loc>
+    <lastmod>2018-09-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/modelling/</loc>
+    <lastmod>2018-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/rico-klinckenberg/</loc>
+    <lastmod>2018-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/thesis/svenandresen/</loc>
+    <lastmod>2018-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/sven-andresen/</loc>
+    <lastmod>2018-09-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

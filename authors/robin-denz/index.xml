@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robin Denz | Nils Rottmann | Homepage</title>
+    <link>/authors/robin-denz/</link>
+      <atom:link href="/authors/robin-denz/index.xml" rel="self" type="application/rss+xml" />
+    <description>Robin Denz</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 11 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Robin Denz</title>
+      <link>/authors/robin-denz/</link>
+    </image>
+    
+    <item>
+      <title>Complete coverage path planning for low cost robots</title>
+      <link>/thesis/robindenz/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/thesis/robindenz/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;The demand among the population for household robots continues to rise.
+These include in particular mobile cleaning and lawn mowing robots. These
+are usually very expensive and still very inefficient. Especially for lawn mowing robots, it is essential to have visited the entire working space in order to
+perform their task correctly. However, the current state of the art is still random walk algorithms, which are very unreliable and inefficient. The present
+bachelor thesis therefore presents a method for intelligent path planning for
+mobile &amp;ldquo;low cost&amp;rdquo;robots using a lawn mower robot. The robot is only equipped
+with binary sensors to detect its position in its working space, which is fraught
+with high uncertainties. By an intelligent representation of the already visited
+working space as well as the path planning inspired by neural networks, the
+lawn mower robot manages to achieve a decisive improvement in efficiency
+compared to the random walk.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

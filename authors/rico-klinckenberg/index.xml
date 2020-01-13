@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rico Klinckenberg | Nils Rottmann | Homepage</title>
+    <link>/authors/rico-klinckenberg/</link>
+      <atom:link href="/authors/rico-klinckenberg/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rico Klinckenberg</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 25 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Rico Klinckenberg</title>
+      <link>/authors/rico-klinckenberg/</link>
+    </image>
+    
+    <item>
+      <title>Localizsation and Control for Trajectory Tracking for Autonomous Lawn Mowers</title>
+      <link>/thesis/ricoklinckenberg/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/thesis/ricoklinckenberg/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;The present bachelor thesis presents the necessary methods for an exact selflocalization by using an Inertial Mesurment Unit (IMU) and the odometry of an
+autonomous lawn mower. This self-localization shall be used in later work together
+with a localization of a particle filter. The required standard models [12] for the
+individual sensor systems were examined and the required parameters determined.
+Measurements were taken with the autonomous lawn mower to develop a Kalman
+filter [15] based on the data obtained. With the help of the Kalman filter and
+a controller which was designed in this thesis, such a self-localization could be
+realized. The results show that the autonomous lawnmower can locate itself under
+simulated conditions with a higher accuracy than with a pure localization via
+odometry. However, final measurements show that disturbances of the IMU occur
+within the autonomous lawn mower, so that a final overall behaviour cannot be
+implemented with the current architecture of the autonomous lawn mower.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

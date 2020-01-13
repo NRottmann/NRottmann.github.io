@@ -5,12 +5,36 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 08 Nov 2019 14:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
       <link>/authors/</link>
     </image>
+    
+    <item>
+      <title>Michael Werner</title>
+      <link>/authors/michael-werner/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/michael-werner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nico Studt</title>
+      <link>/authors/nico-studt/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/nico-studt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robin Denz</title>
+      <link>/authors/robin-denz/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/robin-denz/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>
@@ -42,6 +66,46 @@
       <link>/authors/ralf-bruder/</link>
       <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
       <guid>/authors/ralf-bruder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alexander Osiik</title>
+      <link>/authors/alexander-osiik/</link>
+      <pubDate>Fri, 16 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/alexander-osiik/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Glenn Roewekamp</title>
+      <link>/authors/glenn-roewekamp/</link>
+      <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/glenn-roewekamp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Friedrich Podstawa</title>
+      <link>/authors/friedrich-podstawa/</link>
+      <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/friedrich-podstawa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rico Klinckenberg</title>
+      <link>/authors/rico-klinckenberg/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/rico-klinckenberg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sven Andresen</title>
+      <link>/authors/sven-andresen/</link>
+      <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/authors/sven-andresen/</guid>
       <description></description>
     </item>
     

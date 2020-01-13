@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reinforcement Learning | Nils Rottmann | Homepage</title>
+    <link>/tags/reinforcement-learning/</link>
+      <atom:link href="/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Reinforcement Learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Reinforcement Learning</title>
+      <link>/tags/reinforcement-learning/</link>
+    </image>
+    
+    <item>
+      <title>HIBO: Hierarchical Acquisition Functions for Bayesian Optimization</title>
+      <link>/thesis/michaelwerner/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/thesis/michaelwerner/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Bayesian Optimization is a powerful method to optimize black-box derivative-free functions, with high evaluation costs. For instance, applications can be found in the context of robotics, animation design or molecular design. However, Bayesian Optimization is not able to scale into higher dimensions, equivalent to optimizing more than 20 parameters. This thesis introduces HIBO, a new hierarchical algorithm in the context of high dimensional Bayesian Optimization. The algorithm uses an automatic feature generation. The features are used to condition the parameters, to enable faster optimization. The performance of HIBO is compared to existing high dimensional extensions of Bayesian Optimization on three common benchmark functions. Additionally, an air hockey simulation is used to examine the capability in a task-oriented setting. The conducted experiments show that HIBO performs similar to the basic Bayesian Optimization algorithm, independent from the dimensionality of the given problem. Hence, the proposed HIBO algorithm does not scale Bayesian Optimization to higher dimensions.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

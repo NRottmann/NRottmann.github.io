@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexander Osiik | Nils Rottmann | Homepage</title>
+    <link>/authors/alexander-osiik/</link>
+      <atom:link href="/authors/alexander-osiik/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alexander Osiik</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 16 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Alexander Osiik</title>
+      <link>/authors/alexander-osiik/</link>
+    </image>
+    
+    <item>
+      <title>Trajectory planning for mobile robots for working area complete coverage under high uncertainty</title>
+      <link>/thesis/alexanderosiik/</link>
+      <pubDate>Fri, 16 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/thesis/alexanderosiik/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;This Bachelor thesis presents an approach for the complete coverage path
+planning (CCPP) problem which occurs for different robotic applications, such
+as autonomous lawn mowers or vaccuum cleaners. Methods used for localization
+[27], map representation [10] and planning [14] are discussed under consideration
+of sensor noise and uncertainty about the own position induced by the movement
+of the robot. An efficient method to solve the CCPP problem under uncertainty is
+proposed and evaluated due to simulations. The results show that under simulated
+conditions, the autonomous lawnmower covers the field of work faster and
+can guarantee complete coverage, in contrast to commercially used techniques.
+Furthermore, an efficient algorithm to divide the working area into smaller areas
+is developed, which leads to an increased computational and storage efficiency.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

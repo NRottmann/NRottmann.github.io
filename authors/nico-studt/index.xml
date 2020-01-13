@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nico Studt | Nils Rottmann | Homepage</title>
+    <link>/authors/nico-studt/</link>
+      <atom:link href="/authors/nico-studt/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nico Studt</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Nico Studt</title>
+      <link>/authors/nico-studt/</link>
+    </image>
+    
+    <item>
+      <title>Simultaneous Localization and Mapping with Room Labeling</title>
+      <link>/thesis/nicostudt/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/thesis/nicostudt/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;The focus of this work is on extending the functionality of the robot platform
+Loomo. Using cartography and navigation methods, the basis for an autonomous system is created. In addition, the recognition and storage of AR
+markers simplifies human-robot interaction by enabling targeted navigation
+to specific locations. The implementation of the used software components
+ROS, Movebase, RTAB-Map and ALVAR is described in detail and tested in
+an experimental setting.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

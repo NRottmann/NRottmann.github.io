@@ -5,7 +5,7 @@
     <link>/tags/</link>
       <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 09 Nov 2019 16:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Tags</title>
@@ -13,17 +13,17 @@
     </image>
     
     <item>
-      <title>Localization</title>
-      <link>/tags/localization/</link>
-      <pubDate>Sat, 09 Nov 2019 16:00:00 +0000</pubDate>
-      <guid>/tags/localization/</guid>
+      <title>Humanoid Robotics</title>
+      <link>/tags/humanoid-robotics/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/humanoid-robotics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mobile Robotics</title>
       <link>/tags/mobile-robotics/</link>
-      <pubDate>Sat, 09 Nov 2019 16:00:00 +0000</pubDate>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/tags/mobile-robotics/</guid>
       <description></description>
     </item>
@@ -31,24 +31,48 @@
     <item>
       <title>Navigation</title>
       <link>/tags/navigation/</link>
-      <pubDate>Sat, 09 Nov 2019 16:00:00 +0000</pubDate>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/tags/navigation/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>SLAM</title>
-      <link>/tags/slam/</link>
-      <pubDate>Sat, 09 Nov 2019 16:00:00 +0000</pubDate>
-      <guid>/tags/slam/</guid>
+      <title>Optimization</title>
+      <link>/tags/optimization/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/optimization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Planning</title>
       <link>/tags/planning/</link>
-      <pubDate>Thu, 12 Sep 2019 12:50:00 +0000</pubDate>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
       <guid>/tags/planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>/tags/reinforcement-learning/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SLAM</title>
+      <link>/tags/slam/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/tags/slam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Localization</title>
+      <link>/tags/localization/</link>
+      <pubDate>Sat, 09 Nov 2019 16:00:00 +0000</pubDate>
+      <guid>/tags/localization/</guid>
       <description></description>
     </item>
     
@@ -65,6 +89,30 @@
       <link>/tags/mapping/</link>
       <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
       <guid>/tags/mapping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Medical Devices</title>
+      <link>/tags/medical-devices/</link>
+      <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/tags/medical-devices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sensors</title>
+      <link>/tags/sensors/</link>
+      <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>/tags/sensors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelling</title>
+      <link>/tags/modelling/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/tags/modelling/</guid>
       <description></description>
     </item>
     
