@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Honghu Xue | Nils Rottmann | Homepage</title>
+    <link>/authors/honghu-xue/</link>
+      <atom:link href="/authors/honghu-xue/index.xml" rel="self" type="application/rss+xml" />
+    <description>Honghu Xue</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Honghu Xue</title>
+      <link>/authors/honghu-xue/</link>
+    </image>
+    
+    <item>
+      <title>Sample-Efficient Covariance Matrix Adaptation Evolutional Strategy via Simulated Rollouts in Neural Networks</title>
+      <link>/publication/aspai2020/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/aspai2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

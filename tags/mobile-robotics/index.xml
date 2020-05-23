@@ -5,12 +5,20 @@
     <link>/tags/mobile-robotics/</link>
       <atom:link href="/tags/mobile-robotics/index.xml" rel="self" type="application/rss+xml" />
     <description>Mobile Robotics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Mobile Robotics</title>
       <link>/tags/mobile-robotics/</link>
     </image>
+    
+    <item>
+      <title>ROS-Mobile</title>
+      <link>/project/ros_mobile/</link>
+      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
+      <guid>/project/ros_mobile/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Simultaneous Localization and Mapping with Room Labeling</title>

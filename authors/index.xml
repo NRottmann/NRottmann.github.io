@@ -5,12 +5,69 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
       <link>/authors/</link>
     </image>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;Mobile Robots. Sensors. Machine Learning. Dancing.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Elmar Rueckert</title>
+      <link>/authors/elmar-rueckert/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/elmar-rueckert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gerhard Neumann</title>
+      <link>/authors/gerhard-neumann/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/gerhard-neumann/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harit Pandya</title>
+      <link>/authors/harit-pandya/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/harit-pandya/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Honghu Xue</title>
+      <link>/authors/honghu-xue/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/honghu-xue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ralf Bruder</title>
+      <link>/authors/ralf-bruder/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/ralf-bruder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sven Boettger</title>
+      <link>/authors/sven-boettger/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/sven-boettger/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Michael Werner</title>
@@ -37,35 +94,10 @@
     </item>
     
     <item>
-      <title></title>
-      <link>/authors/admin/</link>
-      <pubDate>Fri, 08 Nov 2019 14:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;Mobile Robots. Sensors. Machine Learning. Dancing.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Achim Schweikard</title>
       <link>/authors/achim-schweikard/</link>
       <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
       <guid>/authors/achim-schweikard/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Elmar Rueckert</title>
-      <link>/authors/elmar-rueckert/</link>
-      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/elmar-rueckert/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ralf Bruder</title>
-      <link>/authors/ralf-bruder/</link>
-      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/ralf-bruder/</guid>
       <description></description>
     </item>
     
