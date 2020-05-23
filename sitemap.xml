@@ -235,7 +235,7 @@
   </url>
   
   <url>
-    <loc>/talk/hhberlin2019/</loc>
+    <loc>/talk/hhkiel2019/</loc>
     <lastmod>2019-09-12T12:50:00+00:00</lastmod>
   </url>
   
@@ -273,6 +273,17 @@
   </url>
   
   <url>
+    <loc>/tags/face-detection/</loc>
+    <lastmod>2019-09-03T12:50:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/talk/hhberlin2019/</loc>
+    <lastmod>2019-09-03T12:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/project/legorobots/</loc>
     <lastmod>2019-08-10T00:00:00+00:00</lastmod>
   </url>
@@ -280,6 +291,11 @@
   <url>
     <loc>/project/mirana/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/thinkatibm2019/</loc>
+    <lastmod>2019-03-12T12:50:00+00:00</lastmod>
   </url>
   
   <url>

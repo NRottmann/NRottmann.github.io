@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Face Detection | Nils Rottmann | Homepage</title>
+    <link>/tags/face-detection/</link>
+      <atom:link href="/tags/face-detection/index.xml" rel="self" type="application/rss+xml" />
+    <description>Face Detection</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 03 Sep 2019 12:50:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Face Detection</title>
+      <link>/tags/face-detection/</link>
+    </image>
+    
+    <item>
+      <title>Healthcare Hackathon Berlin Speech</title>
+      <link>/talk/hhberlin2019/</link>
+      <pubDate>Tue, 03 Sep 2019 12:50:00 +0000</pubDate>
+      <guid>/talk/hhberlin2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
