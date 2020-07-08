@@ -102,6 +102,16 @@
   </url>
   
   <url>
+    <loc>/post/mlss2020/</loc>
+    <lastmod>2020-06-29T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-06-29T20:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/mobile-devices/</loc>
     <lastmod>2020-05-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -220,11 +230,6 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2019-11-08T14:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/ukshopening/</loc>
     <lastmod>2019-11-08T14:00:00+00:00</lastmod>
   </url>
@@ -285,6 +290,11 @@
   
   <url>
     <loc>/project/legorobots/</loc>
+    <lastmod>2019-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/train/</loc>
     <lastmod>2019-08-10T00:00:00+00:00</lastmod>
   </url>
   
