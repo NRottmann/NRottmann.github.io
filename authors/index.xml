@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>/authors/admin/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
       <description>&lt;p&gt;Mobile Robots. Sensors. Machine Learning. Dancing.&lt;/p&gt;
 </description>
@@ -24,8 +24,32 @@
     <item>
       <title>Elmar Rueckert</title>
       <link>/authors/elmar-rueckert/</link>
-      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
       <guid>/authors/elmar-rueckert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jan Babic</title>
+      <link>/authors/jan-babic/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/jan-babic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jan Peters</title>
+      <link>/authors/jan-peters/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/jan-peters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tjasa Kunavar</title>
+      <link>/authors/tjasa-kunavar/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>/authors/tjasa-kunavar/</guid>
       <description></description>
     </item>
     
