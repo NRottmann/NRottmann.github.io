@@ -136,6 +136,581 @@ compared to the random walk.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Raspberry Pi Configuration</title>
+      <link>/tutorials/raspberrypi/</link>
+      <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>/tutorials/raspberrypi/</guid>
+      <description>
+
+&lt;h1 id=&#34;raspberry-pi-for-mobile-robots&#34;&gt;Raspberry Pi for Mobile Robots&lt;/h1&gt;
+
+&lt;p&gt;This is a tutorial on how to set up your Raspberry Pi for controlling a mobile robot. Therefore, we will use the Robot Operating System (ROS) together with different connection possibilities (e.g. WLAN, Mobile Net, &amp;hellip;).&lt;/p&gt;
+
+&lt;p&gt;A complete Image with existing ROS installation and WLAN access point can be found &lt;a href=&#34;https://drive.google.com/file/d/14kYuFTbEE-RQ3aikde9BUBpjqiKg_Hy9/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. It has everything installed and configured until including the &lt;a href=&#34;#WLAN&#34;&gt;WLAN Configuration&lt;/a&gt; section.&lt;/p&gt;
+
+&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;#instalOS&#34;&gt;Install Raspberry Pi OS&lt;/a&gt; &lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#Access&#34;&gt;Access the Raspberry Pi&lt;/a&gt; &lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#ROS&#34;&gt;ROS Configuration&lt;/a&gt; &lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#WLAN&#34;&gt;WLAN Configuration&lt;/a&gt; &lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#UART&#34;&gt;Enable SPI and UART Connection&lt;/a&gt; &lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#USB&#34;&gt;Define static addresses for USB ports&lt;/a&gt; &lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#Web&#34;&gt;Mobile Web&lt;/a&gt; &lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#ROSWeb&#34;&gt;ROS over Mobile Web&lt;/a&gt; &lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#Test&#34;&gt;Test the System&lt;/a&gt; &lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;#EIGEN&#34;&gt;Eigen3 Installation&lt;/a&gt; &lt;br/&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;install-raspberry-pi-os-a-name-instalos-a&#34;&gt;Install Raspberry Pi OS &lt;a name=&#34;instalOS&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;First, we install Raspberry Pi OS onto the Raspberry Pi. There are different Images available (e.g. desktop, Lite) which can be found &lt;a href=&#34;https://www.raspberrypi.org/downloads/raspberry-pi-os/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. We will use the Lite version to not burden our robot with unnecessary computational load. Download the ZIP folder of your chosen Raspberry OS version and load it onto a Micro SD card (e.g. 32 GB). We use the Win32 Disk Manager (Windows), which can be found &lt;a href=&#34;https://www.chip.de/downloads/Win32-Disk-Imager_46121030.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Therefore, unpack the downloaded ZIP folder (it contains an .img file of the OS), start the Win32 Disk Manager, choose the .img-file and the right data medium and start writing onto the SD card.&lt;/p&gt;
+
+&lt;p float=&#34;left&#34; align=&#34;middle&#34;&gt;
+  &lt;img src=&#34;./images/WinDisk32.png&#34; width=&#34;400 hspace=&#34;0&#34; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;access-the-raspberry-pi-a-name-access-a&#34;&gt;Access the Raspberry Pi &lt;a name=&#34;Access&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;To access the Raspberry Pi for installing required components, we first enable the SSH connection. Therefore, we connect a monitor and a keyboard to the Raspberry Pi, start it and login with the default username and password&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;username: pi
+password: raspberry
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To enable SSH connection, we type&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo raspi-config
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;navigate to Interfacing Options, then to P2 SSH and enable the SSH server option. Now we can connect via SSH, e.g. using &lt;a href=&#34;https://www.putty.org/&#34; target=&#34;_blank&#34;&gt;Putty&lt;/a&gt;. Therefore, connect the Raspberry Pi to your local network via ethernet. Probably, your Raspberry Pi has to be registered by your system administrator via its MAC address to get a valid IP. Now we can proceed with the further configurations, but first you might want to change your password by typing&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;passwd
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;ros-configuration-a-name-ros-a&#34;&gt;ROS Configuration &lt;a name=&#34;ROS&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;To operate our mobile robot we will use the Robot Operating System (&lt;a href=&#34;https://www.ros.org/&#34; target=&#34;_blank&#34;&gt;ROS&lt;/a&gt;). We start by updating and upgrading our system&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo apt update
+sudo apt upgrade
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We now check the version of our Raspberry OS&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;cat /etc/os-release
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It will show something similar to&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;PRETTY_NAME=&amp;quot;Raspbian GNU/Linux 10 (buster)&amp;quot;
+NAME=&amp;quot;Raspbian GNU/Linux&amp;quot;
+VERSION_ID=&amp;quot;10&amp;quot;
+VERSION=&amp;quot;10 (buster)&amp;quot;
+VERSION_CODENAME=buster
+ID=raspbian
+ID_LIKE=debian
+HOME_URL=&amp;quot;http://www.raspbian.org/&amp;quot;
+SUPPORT_URL=&amp;quot;http://www.raspbian.org/RaspbianForums&amp;quot;
+BUG_REPORT_URL=&amp;quot;http://www.raspbian.org/RaspbianBugs&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As you can see, our version is &amp;ldquo;buster&amp;rdquo;. Hence, we can install the current ROS version Melodic onto our Raspberry Pi. To do so, we will follow &lt;a href=&#34;[http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi](http://wiki.ros.org/ROSberryPi/Installing ROS Melodic on the Raspberry Pi)&#34; target=&#34;_blank&#34;&gt;ROS Installation Tutorial&lt;/a&gt; for the Raspberry Pi. We start by installing the repository key&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo sh -c &#39;echo &amp;quot;deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main&amp;quot; &amp;gt; /etc/apt/sources.list.d/ros-latest.list&#39;
+sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and updating the system&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo apt update
+sudo apt upgrade
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, we install the bootstrap dependencies&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo apt install -y python-rosdep python-rosinstall-generator python-wstool python-rosinstall build-essential cmake
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We will proceed by downloading required files and building ROS-Melodic. First, we require a catkin workspace&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;mkdir -p ~/ros_catkin_ws
+cd ~/ros_catkin_ws
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;to then fetch the core packages (no GUI-tools) and build them&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;rosinstall_generator ros_comm --rosdistro melodic --deps --wet-only --tar &amp;gt; melodic-ros_comm-wet.rosinstall
+wstool init src melodic-ros_comm-wet.rosinstall
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We proceed by resolving the dependencies (that should take a while)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;rosdep install -y --from-paths src --ignore-src --rosdistro melodic -r --os=debian:buster
+sudo rosdep init
+rosdep update
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, after downloading the packages and resolving the dependencies, we can start building ROS by invoking catkin_make_isolated. It might be required that you decrease the compilation thread with the -j1 or -j2 option&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release --install-space /opt/ros/melodic
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now source the ROS environment and also put it into the ~/.bashrc, such that it get sourced automatically  for every bash session&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;source /opt/ros/melodic/setup.bash
+echo &amp;quot;source /opt/ros/melodic/setup.bash&amp;quot; &amp;gt;&amp;gt; ~/.bashrc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;ROS is now completely set up. If you require additional packages, follow up &lt;a href=&#34;[http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi#Adding_Released_Packages](http://wiki.ros.org/ROSberryPi/Installing ROS Melodic on the Raspberry Pi#Adding_Released_Packages)&#34; target=&#34;_blank&#34;&gt;this procedure&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;wlan-configuration-a-name-wlan-a&#34;&gt;WLAN Configuration &lt;a name=&#34;WLAN&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;In order to be able to access the Raspberry Pi in absence of any local network, we let the Raspberry Pi open a WLAN by itself. We can then easily control and monitor our mobile robot over this network, e.g. by using &lt;a href=&#34;https://github.com/ROS-Mobile/ROS-Mobile-Android&#34; target=&#34;_blank&#34;&gt;ROS-Mobile&lt;/a&gt;. First, we install required software&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo apt install dnsmasq hostapd
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Add network configuration to the default activated DHCP Client Daemon by opening the config file&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo nano /etc/dhcpcd.conf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and including&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;interface wlan0
+static ip_address=192.168.1.1/24
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;by saving the changes with ctrl+o and returning with ctrl+x. As you can see, we assign our WLAN-Interface a static IP, which might be essential for the use as DHCP- or DNS-Server. Now, we restart the DHCP client daemon&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo systemctl restart dhcpcd
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Check if both network interfaces are available with&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;ip l
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It should appear something similar to&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;1: lo: &amp;lt;LOOPBACK,UP,LOWER_UP&amp;gt; mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: eth0: &amp;lt;BROADCAST,MULTICAST,UP,LOWER_UP&amp;gt; mtu 1500 qdisc pfifo_fast state UP mode DEFAULT group default qlen 1000
+    link/ether b8:27:eb:44:ba:d4 brd ff:ff:ff:ff:ff:ff
+3: wlan0: &amp;lt;BROADCAST,MULTICAST&amp;gt; mtu 1500 qdisc noop state DOWN mode DORMANT group default qlen 1000
+    link/ether b8:27:eb:11:ef:81 brd ff:ff:ff:ff:ff:ff
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Next, we change the configurations for the DHCP-server and the DNS-cache, which both are included in the &amp;ldquo;dnsmasq&amp;rdquo; file.  We save a copy of the current file as backup and then open the file for adding our configurations&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo mv /etc/dnsmasq.conf /etc/dnsmasq.conf_alt
+sudo nano /etc/dnsmasq.conf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We add the following lines&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# DHCP-Server active for wlan0
+interface=wlan0
+
+# DHCP-Server non-active for existing network
+no-dhcp-interface=eth0
+
+# IPv4-addresses and lease time
+dhcp-range=192.168.1.100,192.168.1.200,255.255.255.0,24h
+
+# DNS
+dhcp-option=option:dns-server,192.168.1.1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Save and close again with ctrl+o and ctrl+x. Let us now test our configurations&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;dnsmasq --test -C /etc/dnsmasq.conf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Hopefully, it gives back now an &amp;ldquo;OK&amp;rdquo;. Finally, we restart the dnsmasq, checking the status and enabling the autostart mode&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo systemctl restart dnsmasq
+sudo systemctl status dnsmasq
+sudo systemctl enable dnsmasq
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;By checking the status, the service should be &amp;ldquo;Active&amp;rdquo;. In the last step, we now configure the &amp;ldquo;hostapd&amp;rdquo;. Therefore, we open&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo nano /etc/hostapd/hostapd.conf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;which should be an empty file. We add the following lines&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Interface
+interface=wlan0
+
+# WLAN-Configuration
+ssid=myRobotWLAN
+channel=1
+hw_mode=g
+ieee80211n=1
+ieee80211d=1
+country_code=DE
+wmm_enabled=1
+
+# WLAN-Encryption
+auth_algs=1
+wpa=2
+wpa_key_mgmt=WPA-PSK
+rsn_pairwise=CCMP
+wpa_passphrase=12345678
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Our WLAN has now the name myRobotWLAN and the password is &amp;ldquo;12345678&amp;rdquo;. Since this file holds the WLAN password, we should only allow the user root to get access&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo chmod 600 /etc/hostapd/hostapd.conf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Lets us now check if the &amp;ldquo;hostapd&amp;rdquo; can be successfully put into operation&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo hostapd -dd /etc/hostapd/hostapd.conf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If successfully, it should not go back to command input and show the following two lines somewhere&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;wlan0: interface state COUNTRY_UPDATE-&amp;gt;ENABLED
+wlan0: AP-ENABLED
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If it goes back to command input or puts out error message, multiple error sources are possible. One common mistake is that you did not specify the country in which you operate, such that WLAN in general is disabled. Therefore go to&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo raspi-config
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and enable the WLAN. To let the &amp;ldquo;hostapd&amp;rdquo; start in the background as daemon we open the default configurations&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo nano /etc/default/hostapd
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and add&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;RUN_DAEMON=yes
+DAEMON_CONF=&amp;quot;/etc/hostapd/hostapd.conf&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Finally, we take the &amp;ldquo;hostapd&amp;rdquo; in work with&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo systemctl unmask hostapd
+sudo systemctl start hostapd
+sudo systemctl enable hostapd
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We can check if everything is successful by typing&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo systemctl status hostapd
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;where &amp;ldquo;active&amp;rdquo; and &amp;ldquo;loaded&amp;rdquo; should be stated. We can now access the WLAN &amp;ldquo;myRobotWLAN&amp;rdquo; and connect via SSH to our Raspberry Pi.&lt;/p&gt;
+
+&lt;p&gt;You can also find the presented tutorial &lt;a href=&#34;https://www.elektronik-kompendium.de/sites/raspberry-pi/2002171.htm&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; (it is in german).&lt;/p&gt;
+
+&lt;h2 id=&#34;enable-spi-and-uart-connection-a-name-uart-a&#34;&gt;Enable SPI and UART Connection &lt;a name=&#34;UART&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Some sensors might require UART or SPI connections. To enable those connections we can change the boot config file&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo nano /boot/config.txt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and add the following lines&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# This enables devices 0.0 and 0.1
+dtparam=spi=on
+dtoverlay=spi1-3cs,cs0_pin=16,cs1_pin=12,cs2_pin=6
+
+# Enable UART
+enable_uart=1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In addition, we have to enable serial devices in general by going into the configuration setup&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo raspi-config
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Go to interfacing options and enable serial connections.&lt;/p&gt;
+
+&lt;h2 id=&#34;define-static-addresses-for-usb-ports-a-name-usb-a&#34;&gt;Define static addresses for USB ports &lt;a name=&#34;USB&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;You might like to have static addresses for your USB ports, such that you can easily access them within your ROS nodes. To define these static addresses, we add a new file to the udev rules&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo nano /etc/udev/rules.d/99-usb-serial.rules
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and add there the following lines&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;SUBSYSTEM==&amp;quot;tty&amp;quot;, KERNELS==&amp;quot;1-1.2&amp;quot;, SYMLINK+=&amp;quot;sensor01&amp;quot;
+SUBSYSTEM==&amp;quot;tty&amp;quot;, KERNELS==&amp;quot;1-1.3&amp;quot;, SYMLINK+=&amp;quot;sensor02&amp;quot;
+SUBSYSTEM==&amp;quot;tty&amp;quot;, KERNELS==&amp;quot;1-1.4&amp;quot;, SYMLINK+=&amp;quot;sensor03&amp;quot;
+SUBSYSTEM==&amp;quot;tty&amp;quot;, KERNELS==&amp;quot;1-1.5&amp;quot;, SYMLINK+=&amp;quot;sensor04&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That defines for the 4 USB ports of the Raspberry Pi the static addresses sensor01, &amp;hellip;, sensor04. Be sure that the correct quotes for the strings have been used. Below you can see the defined port declaration.&lt;/p&gt;
+
+&lt;p float=&#34;left&#34; align=&#34;middle&#34;&gt;
+  &lt;img src=&#34;./images/USBPorts.png&#34; width=&#34;800 hspace=&#34;0&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;To apply the new rules we have to reload them with the udevadm manager as super user&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo su
+sudo udevadm control --reload-rules &amp;amp;&amp;amp; udevadm trigger
+exit
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can check a serial port by connecting a device and try to read from it, e.g.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cat /dev/sensor01
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;mobile-web-a-name-web-a&#34;&gt;Mobile Web &lt;a name=&#34;Web&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;To allow the Raspberry Pi to connect to the Mobile Web, we can use the &lt;a href=&#34;https://sixfab.com/product/raspberry-pi-base-hat-3g-4g-lte-minipcie-cards/&#34; target=&#34;_blank&#34;&gt;Raspberry Pi 3G/4G &amp;amp; LTE Base HAT&lt;/a&gt; together with a prepaid mobile SIMcard (e.g. Aldi Talk). Follow up &lt;a href=&#34;https://sixfab.com/category/raspberry-pi-3g-4g-lte-base-shield/&#34; target=&#34;_blank&#34;&gt;this tutorial&lt;/a&gt; to get started. You require your APN, which would be for Aldi Talk&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;internet.eplus.de
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can test your internet connection by using &amp;ldquo;nslookup&amp;rdquo;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;nslookup google.de
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;ros-over-mobile-web-a-name-rosweb-a&#34;&gt;ROS over Mobile Web &lt;a name=&#34;ROSWeb&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;To allow ROS connections via the Mobile Web, we require a secure VPN network with one server and multiple clients. The computer on which the server is running should have a static IP address for the internet connection. We assume that the VPN server is hosted on a computer running Linux Ubuntu 18.04. We start by installing OpenVPN and easy-rsa&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo apt install openvpn
+sudo apt install easy-rsa
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Easy-rsa is needed for generating all keys and certificates we require. Therefore, we copy the folder for the key generation to a suitable place&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo cp -r /usr/share/easy-rsa /etc/openvpn/easy-rsa2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We now have to adapt the file &amp;ldquo;vars&amp;rdquo; in the easy-rsa2 folder&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;cd easy-rsa2
+sudo nano vars
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here we have to change the following entries that they fit to out situation&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;export KEY_COUNTRY=&amp;quot;DE&amp;quot;
+export KEY_PROVINCE=&amp;quot;Schleswig-Holstein&amp;quot;
+export KEY_CITY=&amp;quot;Luebeck&amp;quot;
+export KEY_ORG=&amp;quot;ROB&amp;quot;
+export KEY_EMAIL=&amp;quot;info@webmaster&amp;quot;
+export KEY_EMAIL=info@webmaster
+export KEY_CN=changeme
+export KEY_NAME=changeme
+export KEY_OU=changeme
+export PKCS11_MODULE_PATH=changeme
+export PKCS11_PIN=1234
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Also we have to add the line&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;export KEY_ALTNAMES=&amp;quot;Irgendwas&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We check now if the folder &amp;ldquo;keys&amp;rdquo; already exists, if not, we add it&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo mkdir keys
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Next, we change the name of the latest &amp;ldquo;openssl-x.x.x.cnf&amp;rdquo; to &amp;ldquo;openssl.cnf&amp;rdquo;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo cp openssl-x.x.x.cnf openssl.cnf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The above adapted file &amp;ldquo;vars&amp;rdquo; has to be now sourced&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;source ./vars
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There will be a warning. Now we can generate the master certificate and key&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo -E ./clean-all
+sudo -E ./build-ca
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;the &amp;ldquo;dh2048.pem&amp;rdquo; file&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo -E ./build-dh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and the certificate and key for the server&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo -E ./build-key-server server
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now we can generate the keys and certificates for the different clients&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo -E ./build-key client1
+sudo -E ./build-key client2
+sudo -E ./build-key client3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Finally, we require to generate the Diffie-Hellmann-Parameter&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo -E ./build-dh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For the client we need only the .key, the .crt and the ca.crt files. We can pack them and send them to our clients&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;tar -cf client1.tar client1.key client1.crt ca.crt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We now need to define a configuration file for the server, &amp;ldquo;server.conf&amp;rdquo;, with&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;cd /etc/openvpn
+sudo nano server.conf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Add into this file the following lines&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;dev tun
+proto udp
+port 1194
+ca /etc/openvpn/easy-rsa2/keys/ca.crt
+cert /etc/openvpn/easy-rsa2/keys/server.crt
+key /etc/openvpn/easy-rsa2/keys/server.key  # This file should be kept secret
+dh /etc/openvpn/easy-rsa2/keys/dh2048.pem
+topology subnet
+server 10.8.0.0 255.255.255.0
+client-config-dir ccd
+client-to-client
+keepalive 1 10
+cipher AES-256-CBC   # AES
+comp-lzo no
+persist-key
+persist-tun
+status openvpn-status.log
+verb 4
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We add also a directory &amp;ldquo;ccd&amp;rdquo; (client-config-directory) and add client files to define static IP addresses for each client&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo mkdir ccd
+cd ccd
+sudo nano client1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;where we add the following line&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ifconfig-push 10.8.0.2 255.255.255.0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here, the IP is the static IP attached to the client. Now we can run our server using&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo openvpn server.conf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;cellphone-as-client-android&#34;&gt;Cellphone as Client (Android)&lt;/h4&gt;
+
+&lt;p&gt;We first generate a file named &amp;ldquo;client.ovpn&amp;rdquo;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;cd  ~
+nano client.ovpn
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and add the following lines&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;client
+proto udp
+dev tun
+remote server.ip 1194
+resolv-retry infinite
+persist-key
+persist-tun
+ca ca.crt
+cert client1.crt
+key client1.key
+remote-cert-tls server
+cipher AES-256-CBC
+comp-lzo no
+verb 3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;where we insert the correct static server IP. We then copy this file together with the &amp;ldquo;client1.key&amp;rdquo;, &amp;ldquo;client1.crt&amp;rdquo;, &amp;ldquo;ca.crt&amp;rdquo; files to a chosen folder on our mobile phone. Then, download the &amp;ldquo;OpenVPN Connect&amp;rdquo; App and find the &amp;ldquo;client.ovpn&amp;rdquo; file. Now you can simply press the connect button and the connection to your server (if the server is running) should be established.&lt;/p&gt;
+
+&lt;h4 id=&#34;raspberry-pi-as-client&#34;&gt;Raspberry Pi as Client&lt;/h4&gt;
+
+&lt;p&gt;Install openvpn&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo apt install openvpn
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Generate a file called &amp;ldquo;client.conf&amp;rdquo;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;cd /etc/openvpn
+sudo nano client.conf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and add the following lines&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;client
+proto udp
+dev tun
+remote server.ip 1194
+resolv-retry infinite
+persist-key
+persist-tun
+ca ca.crt
+cert client1.crt
+key client1.key
+remote-cert-tls server
+cipher AES-256-CBC
+comp-lzo no
+verb 3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;where we insert the correct static server IP. Put the &amp;ldquo;client1.key&amp;rdquo;, &amp;ldquo;client1.crt&amp;rdquo;, &amp;ldquo;ca.crt&amp;rdquo; files into the &amp;ldquo;/etc/openvpn&amp;rdquo; folder. You can start now the connection using&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo openvpn client.conf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;test-the-system-a-name-test-a&#34;&gt;Test the System &lt;a name=&#34;Test&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;In order to check if our system works for sending ROS messages, we can use a simple talker node. Therefore, download the &lt;a href=&#34;https://drive.google.com/drive/folders/1PC52Sx3O7vkILSU1u4OL9ehUbs8QH7KW?usp=sharing&#34; target=&#34;_blank&#34;&gt;sample code&lt;/a&gt; onto one of your clients which consist of a ROS package, which should be placed into the &amp;ldquo;src&amp;rdquo; folder of a catkin workspace. Thus, we first create such a workspace and &amp;ldquo;src&amp;rdquo; folder&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd ~
+sudo mkdir -p catkin_ws/src
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now put the &amp;ldquo;connection_test&amp;rdquo; package into this folder and compile&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd ~/catkin_ws
+catkin_make
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The accompanied bash script will set all required environmental variables and start our test launch file. Therefore, put this into your home folder, make it executable and start it. But before, adjust the IP according to your system, (e.g. for client1 it might be the 10.8.0.2, depending which static IPs you assigned)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./startConnection.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, we can try to listen to the chatter topic from a different client or from the server. Be aware, that you also have to set the correct IP address onto these system.&lt;/p&gt;
+
+&lt;h2 id=&#34;eigen3-installation-a-name-eigen-a&#34;&gt;Eigen3 Installation &lt;a name=&#34;EIGEN&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Your might want to use Eigen3 as math library for some ROS nodes (e.g. a Kalman Filter). To install the Eigen3 package &amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>MIRANA</title>
       <link>/project/mirana/</link>
       <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
@@ -232,7 +807,12 @@ implemented with the current architecture of the autonomous lawn mower.&lt;/p&gt
       <link>/thesis/svenandresen/</link>
       <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
       <guid>/thesis/svenandresen/</guid>
-      <description></description>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Low cost robots, such as vacuum cleaners or lawn mowers employ simplistic and often random navigation policies. Although a large number of sophisticated mapping and planning approaches exist, they require additional sensors like LIDAR sensors, cameras or time of flight sensors. In this work, we investigate SLAM techniques for efficient mapping and localization with limited sensing capabilities.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

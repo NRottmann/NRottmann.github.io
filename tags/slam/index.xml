@@ -96,7 +96,12 @@ to a perfectly functioning mower surface detection sensor.&lt;/p&gt;
       <link>/thesis/svenandresen/</link>
       <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
       <guid>/thesis/svenandresen/</guid>
-      <description></description>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Low cost robots, such as vacuum cleaners or lawn mowers employ simplistic and often random navigation policies. Although a large number of sophisticated mapping and planning approaches exist, they require additional sensors like LIDAR sensors, cameras or time of flight sensors. In this work, we investigate SLAM techniques for efficient mapping and localization with limited sensing capabilities.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
