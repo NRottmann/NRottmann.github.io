@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tjasa Kunavar | Nils Rottmann | Homepage</title>
-    <link>/authors/tjasa-kunavar/</link>
-      <atom:link href="/authors/tjasa-kunavar/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/authors/tjasa-kunavar/</link>
+      <atom:link href="https://nrottmann.github.io/authors/tjasa-kunavar/index.xml" rel="self" type="application/rss+xml" />
     <description>Tjasa Kunavar</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Tjasa Kunavar</title>
-      <link>/authors/tjasa-kunavar/</link>
+      <link>https://nrottmann.github.io/authors/tjasa-kunavar/</link>
     </image>
     
     <item>
       <title>Learning Hierarchical Acquisition Functions for Bayesian Optimization</title>
-      <link>/publication/iros2020/</link>
+      <link>https://nrottmann.github.io/publication/iros2020/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/iros2020/</guid>
+      <guid>https://nrottmann.github.io/publication/iros2020/</guid>
       <description></description>
     </item>
     

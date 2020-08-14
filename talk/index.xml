@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks | Nils Rottmann | Homepage</title>
-    <link>/talk/</link>
-      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/talk/</link>
+      <atom:link href="https://nrottmann.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 09 Nov 2019 16:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>/talk/</link>
+      <link>https://nrottmann.github.io/talk/</link>
     </image>
     
     <item>
       <title>MIRANA - A mobile robotic assistant</title>
-      <link>/talk/nook2019/</link>
+      <link>https://nrottmann.github.io/talk/nook2019/</link>
       <pubDate>Sat, 09 Nov 2019 16:00:00 +0000</pubDate>
-      <guid>/talk/nook2019/</guid>
+      <guid>https://nrottmann.github.io/talk/nook2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Autumn School</title>
-      <link>/talk/autumnschool2019/</link>
+      <link>https://nrottmann.github.io/talk/autumnschool2019/</link>
       <pubDate>Tue, 08 Oct 2019 08:00:00 +0000</pubDate>
-      <guid>/talk/autumnschool2019/</guid>
+      <guid>https://nrottmann.github.io/talk/autumnschool2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Healthcare Hackathon Kiel - MIRANA Introduction</title>
-      <link>/talk/hhkiel2019/</link>
+      <link>https://nrottmann.github.io/talk/hhkiel2019/</link>
       <pubDate>Thu, 12 Sep 2019 12:50:00 +0000</pubDate>
-      <guid>/talk/hhkiel2019/</guid>
+      <guid>https://nrottmann.github.io/talk/hhkiel2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Healthcare Hackathon Berlin Speech</title>
-      <link>/talk/hhberlin2019/</link>
+      <link>https://nrottmann.github.io/talk/hhberlin2019/</link>
       <pubDate>Tue, 03 Sep 2019 12:50:00 +0000</pubDate>
-      <guid>/talk/hhberlin2019/</guid>
+      <guid>https://nrottmann.github.io/talk/hhberlin2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Think at IBM</title>
-      <link>/talk/thinkatibm2019/</link>
+      <link>https://nrottmann.github.io/talk/thinkatibm2019/</link>
       <pubDate>Tue, 12 Mar 2019 12:50:00 +0000</pubDate>
-      <guid>/talk/thinkatibm2019/</guid>
+      <guid>https://nrottmann.github.io/talk/thinkatibm2019/</guid>
       <description></description>
     </item>
     

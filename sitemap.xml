@@ -3,453 +3,453 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/authors/admin/</loc>
+    <loc>https://nrottmann.github.io/authors/admin/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/1/</loc>
-    <lastmod>2020-10-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
+    <loc>https://nrottmann.github.io/publication_types/1/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/elmar-rueckert/</loc>
+    <loc>https://nrottmann.github.io/authors/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/humanoids/</loc>
+    <loc>https://nrottmann.github.io/authors/elmar-rueckert/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/jan-babic/</loc>
+    <loc>https://nrottmann.github.io/tags/humanoids/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/jan-peters/</loc>
+    <loc>https://nrottmann.github.io/authors/jan-babic/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/iros2020/</loc>
-    <lastmod>2020-10-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
+    <loc>https://nrottmann.github.io/authors/jan-peters/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/optimization/</loc>
+    <loc>https://nrottmann.github.io/publication/iros2020/</loc>
+    <lastmod>2020-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
+    <loc>https://nrottmann.github.io/tags/optimization/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/</loc>
-    <lastmod>2020-10-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/reinforcement-learning/</loc>
+    <loc>https://nrottmann.github.io/publication_types/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://nrottmann.github.io/publication/</loc>
+    <lastmod>2020-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/reinforcement-learning/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/tjasa-kunavar/</loc>
+    <loc>https://nrottmann.github.io/tags/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/dynamic-movement-primitives/</loc>
+    <loc>https://nrottmann.github.io/authors/tjasa-kunavar/</loc>
+    <lastmod>2020-10-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/dynamic-movement-primitives/</loc>
     <lastmod>2020-06-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/gerhard-neumann/</loc>
+    <loc>https://nrottmann.github.io/authors/gerhard-neumann/</loc>
     <lastmod>2020-06-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/harit-pandya/</loc>
+    <loc>https://nrottmann.github.io/authors/harit-pandya/</loc>
     <lastmod>2020-06-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/honghu-xue/</loc>
+    <loc>https://nrottmann.github.io/authors/honghu-xue/</loc>
     <lastmod>2020-06-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/ralf-bruder/</loc>
+    <loc>https://nrottmann.github.io/authors/ralf-bruder/</loc>
     <lastmod>2020-06-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/aspai2020/</loc>
+    <loc>https://nrottmann.github.io/publication/aspai2020/</loc>
     <lastmod>2020-06-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/sven-boettger/</loc>
+    <loc>https://nrottmann.github.io/authors/sven-boettger/</loc>
     <lastmod>2020-06-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/mlss2020/</loc>
+    <loc>https://nrottmann.github.io/post/mlss2020/</loc>
     <lastmod>2020-06-29T20:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://nrottmann.github.io/post/</loc>
     <lastmod>2020-06-29T20:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/mobile-devices/</loc>
+    <loc>https://nrottmann.github.io/tags/mobile-devices/</loc>
     <lastmod>2020-05-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/mobile-robotics/</loc>
+    <loc>https://nrottmann.github.io/tags/mobile-robotics/</loc>
     <lastmod>2020-05-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/project/</loc>
+    <loc>https://nrottmann.github.io/project/</loc>
     <lastmod>2020-05-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/ros/</loc>
+    <loc>https://nrottmann.github.io/tags/ros/</loc>
     <lastmod>2020-05-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/project/ros_mobile/</loc>
+    <loc>https://nrottmann.github.io/project/ros_mobile/</loc>
     <lastmod>2020-05-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/7/</loc>
+    <loc>https://nrottmann.github.io/publication_types/7/</loc>
     <lastmod>2019-11-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/thesis/michaelwerner/</loc>
+    <loc>https://nrottmann.github.io/thesis/michaelwerner/</loc>
     <lastmod>2019-11-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/humanoid-robotics/</loc>
-    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/michael-werner/</loc>
+    <loc>https://nrottmann.github.io/tags/humanoid-robotics/</loc>
     <lastmod>2019-11-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/navigation/</loc>
+    <loc>https://nrottmann.github.io/authors/michael-werner/</loc>
     <lastmod>2019-11-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/nico-studt/</loc>
+    <loc>https://nrottmann.github.io/tags/navigation/</loc>
     <lastmod>2019-11-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/planning/</loc>
+    <loc>https://nrottmann.github.io/authors/nico-studt/</loc>
     <lastmod>2019-11-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/slam/</loc>
+    <loc>https://nrottmann.github.io/tags/planning/</loc>
     <lastmod>2019-11-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/thesis/nicostudt/</loc>
+    <loc>https://nrottmann.github.io/tags/slam/</loc>
+    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/thesis/nicostudt/</loc>
     <lastmod>2019-11-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/thesis/</loc>
+    <loc>https://nrottmann.github.io/thesis/</loc>
     <lastmod>2019-11-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/thesis/robindenz/</loc>
+    <loc>https://nrottmann.github.io/thesis/robindenz/</loc>
     <lastmod>2019-11-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/robin-denz/</loc>
+    <loc>https://nrottmann.github.io/authors/robin-denz/</loc>
     <lastmod>2019-11-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/localization/</loc>
+    <loc>https://nrottmann.github.io/tags/localization/</loc>
     <lastmod>2019-11-09T16:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/talk/nook2019/</loc>
+    <loc>https://nrottmann.github.io/talk/nook2019/</loc>
     <lastmod>2019-11-09T16:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/</loc>
+    <loc>https://nrottmann.github.io/talk/</loc>
     <lastmod>2019-11-09T16:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/ln_article/</loc>
+    <loc>https://nrottmann.github.io/post/ln_article/</loc>
     <lastmod>2019-11-08T14:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/ukshopening/</loc>
+    <loc>https://nrottmann.github.io/post/ukshopening/</loc>
     <lastmod>2019-11-08T14:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/autumnschool2019/</loc>
+    <loc>https://nrottmann.github.io/talk/autumnschool2019/</loc>
     <lastmod>2019-10-08T08:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/hhkiel2019/</loc>
+    <loc>https://nrottmann.github.io/talk/hhkiel2019/</loc>
     <lastmod>2019-09-12T12:50:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/speech-recognition/</loc>
+    <loc>https://nrottmann.github.io/tags/speech-recognition/</loc>
     <lastmod>2019-09-12T12:50:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/ecmr2019/</loc>
+    <loc>https://nrottmann.github.io/post/ecmr2019/</loc>
     <lastmod>2019-09-06T20:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/hh19_berlin/</loc>
+    <loc>https://nrottmann.github.io/post/hh19_berlin/</loc>
     <lastmod>2019-09-06T20:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/achim-schweikard/</loc>
+    <loc>https://nrottmann.github.io/authors/achim-schweikard/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/ecmr2019/</loc>
+    <loc>https://nrottmann.github.io/publication/ecmr2019/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/mapping/</loc>
+    <loc>https://nrottmann.github.io/tags/mapping/</loc>
     <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/face-detection/</loc>
+    <loc>https://nrottmann.github.io/tags/face-detection/</loc>
     <lastmod>2019-09-03T12:50:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/talk/hhberlin2019/</loc>
+    <loc>https://nrottmann.github.io/talk/hhberlin2019/</loc>
     <lastmod>2019-09-03T12:50:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/gazebo/</loc>
+    <loc>https://nrottmann.github.io/tags/gazebo/</loc>
     <lastmod>2019-08-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/machine-learning/</loc>
+    <loc>https://nrottmann.github.io/tags/machine-learning/</loc>
     <lastmod>2019-08-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/project/legorobots/</loc>
+    <loc>https://nrottmann.github.io/project/legorobots/</loc>
     <lastmod>2019-08-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tutorials/pml/</loc>
+    <loc>https://nrottmann.github.io/tutorials/pml/</loc>
     <lastmod>2019-08-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tutorials/rosgazebo/</loc>
+    <loc>https://nrottmann.github.io/tutorials/rosgazebo/</loc>
     <lastmod>2019-08-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tutorials/raspberrypi/</loc>
+    <loc>https://nrottmann.github.io/tutorials/raspberrypi/</loc>
     <lastmod>2019-08-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/train/</loc>
+    <loc>https://nrottmann.github.io/project/train/</loc>
     <lastmod>2019-08-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tutorials/</loc>
+    <loc>https://nrottmann.github.io/tutorials/</loc>
     <lastmod>2019-08-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/project/mirana/</loc>
+    <loc>https://nrottmann.github.io/project/mirana/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/thinkatibm2019/</loc>
+    <loc>https://nrottmann.github.io/talk/thinkatibm2019/</loc>
     <lastmod>2019-03-12T12:50:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication/biosignals2019/</loc>
+    <loc>https://nrottmann.github.io/publication/biosignals2019/</loc>
     <lastmod>2019-02-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/alexander-osiik/</loc>
+    <loc>https://nrottmann.github.io/authors/alexander-osiik/</loc>
     <lastmod>2018-11-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/thesis/alexanderosiik/</loc>
+    <loc>https://nrottmann.github.io/thesis/alexanderosiik/</loc>
     <lastmod>2018-11-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/thesis/glennroewekamp/</loc>
+    <loc>https://nrottmann.github.io/thesis/glennroewekamp/</loc>
     <lastmod>2018-11-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/glenn-roewekamp/</loc>
-    <lastmod>2018-11-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/medical-devices/</loc>
+    <loc>https://nrottmann.github.io/authors/glenn-roewekamp/</loc>
     <lastmod>2018-11-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/sensors/</loc>
+    <loc>https://nrottmann.github.io/tags/medical-devices/</loc>
     <lastmod>2018-11-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/friedrich-podstawa/</loc>
+    <loc>https://nrottmann.github.io/tags/sensors/</loc>
+    <lastmod>2018-11-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/authors/friedrich-podstawa/</loc>
     <lastmod>2018-10-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/thesis/friedrichpodstawa/</loc>
+    <loc>https://nrottmann.github.io/thesis/friedrichpodstawa/</loc>
     <lastmod>2018-10-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/thesis/ricoklinckenberg/</loc>
+    <loc>https://nrottmann.github.io/thesis/ricoklinckenberg/</loc>
     <lastmod>2018-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/modelling/</loc>
-    <lastmod>2018-09-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/rico-klinckenberg/</loc>
+    <loc>https://nrottmann.github.io/tags/modelling/</loc>
     <lastmod>2018-09-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/thesis/svenandresen/</loc>
+    <loc>https://nrottmann.github.io/authors/rico-klinckenberg/</loc>
+    <lastmod>2018-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/thesis/svenandresen/</loc>
     <lastmod>2018-09-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/sven-andresen/</loc>
+    <loc>https://nrottmann.github.io/authors/sven-andresen/</loc>
     <lastmod>2018-09-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://nrottmann.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   

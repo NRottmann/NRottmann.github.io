@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Medical Devices | Nils Rottmann | Homepage</title>
-    <link>/tags/medical-devices/</link>
-      <atom:link href="/tags/medical-devices/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/tags/medical-devices/</link>
+      <atom:link href="https://nrottmann.github.io/tags/medical-devices/index.xml" rel="self" type="application/rss+xml" />
     <description>Medical Devices</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 11 Nov 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Medical Devices</title>
-      <link>/tags/medical-devices/</link>
+      <link>https://nrottmann.github.io/tags/medical-devices/</link>
     </image>
     
     <item>
       <title>Development of an electromagnetic Tracking System for use in Medical Interventions</title>
-      <link>/thesis/glennroewekamp/</link>
+      <link>https://nrottmann.github.io/thesis/glennroewekamp/</link>
       <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/thesis/glennroewekamp/</guid>
+      <guid>https://nrottmann.github.io/thesis/glennroewekamp/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;

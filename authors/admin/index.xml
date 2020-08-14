@@ -2,98 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nils Rottmann | Homepage</title>
-    <link>/authors/admin/</link>
-      <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/authors/admin/</link>
+      <atom:link href="https://nrottmann.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Nils Rottmann | Homepage</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Nils Rottmann | Homepage</title>
-      <link>/authors/admin/</link>
+      <link>https://nrottmann.github.io/authors/admin/</link>
     </image>
     
     <item>
       <title>Learning Hierarchical Acquisition Functions for Bayesian Optimization</title>
-      <link>/publication/iros2020/</link>
+      <link>https://nrottmann.github.io/publication/iros2020/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/iros2020/</guid>
+      <guid>https://nrottmann.github.io/publication/iros2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sample-Efficient Covariance Matrix Adaptation Evolutional Strategy via Simulated Rollouts in Neural Networks</title>
-      <link>/publication/aspai2020/</link>
+      <link>https://nrottmann.github.io/publication/aspai2020/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/aspai2020/</guid>
+      <guid>https://nrottmann.github.io/publication/aspai2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MLSS 2020, Tuebingen, virtual</title>
-      <link>/post/mlss2020/</link>
+      <link>https://nrottmann.github.io/post/mlss2020/</link>
       <pubDate>Mon, 29 Jun 2020 20:00:00 +0000</pubDate>
-      <guid>/post/mlss2020/</guid>
+      <guid>https://nrottmann.github.io/post/mlss2020/</guid>
       <description>&lt;p&gt;I had the opportunity to attend the MLSS 2020. I got a lot of interesting insights into the different fields of Machine Learning such as Causality, Fairness, Reinforcement Learning and many more. Most of the lectures hold during the summer school are available at YouTube. For further information, just visit the &lt;a href=&#34;http://mlss.tuebingen.mpg.de/2020/&#34; target=&#34;_blank&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Lübecker Nachrichten reports about MIRANA</title>
-      <link>/post/ln_article/</link>
+      <link>https://nrottmann.github.io/post/ln_article/</link>
       <pubDate>Fri, 08 Nov 2019 14:00:00 +0000</pubDate>
-      <guid>/post/ln_article/</guid>
+      <guid>https://nrottmann.github.io/post/ln_article/</guid>
       <description>&lt;p&gt;The Lübecker Nachrichten reports about robots in everyday life: digital helpers are available at UKSH. Our MIRANA project is also part of it. Have a look whole report &lt;a href=&#34;https://www.ln-online.de/Nachrichten/Norddeutschland/Roboter-im-Klinik-Alltag-am-UKSH-Luebeck-So-fortschrittlich-sind-Krankenhaeuser-im-Norden&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>UKSH Opening, Lübeck</title>
-      <link>/post/ukshopening/</link>
+      <link>https://nrottmann.github.io/post/ukshopening/</link>
       <pubDate>Fri, 08 Nov 2019 14:00:00 +0000</pubDate>
-      <guid>/post/ukshopening/</guid>
+      <guid>https://nrottmann.github.io/post/ukshopening/</guid>
       <description>&lt;p&gt;The opening of the USKH in Lübeck was a nice event where we had again the opportunity to present our MIRANA robot. The opening was together with an open house day, which gave us the opportunity to directly test on how MIRANA resonates with the potential patientes.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>ECMR 2019, Prag</title>
-      <link>/post/ecmr2019/</link>
+      <link>https://nrottmann.github.io/post/ecmr2019/</link>
       <pubDate>Fri, 06 Sep 2019 20:00:00 +0000</pubDate>
-      <guid>/post/ecmr2019/</guid>
+      <guid>https://nrottmann.github.io/post/ecmr2019/</guid>
       <description>&lt;p&gt;The European Conference on Mobile Robots 2019 in Prag finished. Three days of interesting talks about a wide variety of mobile applications and algorithms for mobile applications. If you want to have a closer look onto the given topics, feel free to visit the &lt;a href=&#34;https://www.ecmr2019.eu/&#34; target=&#34;_blank&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Healthcare Hackathon 2019 in Berlin</title>
-      <link>/post/hh19_berlin/</link>
+      <link>https://nrottmann.github.io/post/hh19_berlin/</link>
       <pubDate>Fri, 06 Sep 2019 20:00:00 +0000</pubDate>
-      <guid>/post/hh19_berlin/</guid>
+      <guid>https://nrottmann.github.io/post/hh19_berlin/</guid>
       <description>&lt;p&gt;During the Healthcare Hackathon 2019 in Berlin (02. - 03. September), we had the opportunity to present our MIRANA project to a broad audience and to the Minister for Healthcare, Jens Spahn. The Hackathon was organized by the Universitätsklinikum Schleswig-Holstein (UKSH) und der Unimedizin Mainz (UM) together with the Federal Ministry for Healthcare. Around 20 groups attended and developed their ideas in the area of healthcare. Thereby they worked on a broad range of applications, for example smartphone applications or robotic systems. We presented the recent achievements for our MIRANA project (&lt;a href=&#34;http://www.rob.uni-luebeck.de/mirana/&#34; target=&#34;_blank&#34;&gt;http://www.rob.uni-luebeck.de/mirana/&lt;/a&gt;).&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Loop Closure Detection in Closed Environments</title>
-      <link>/publication/ecmr2019/</link>
+      <link>https://nrottmann.github.io/publication/ecmr2019/</link>
       <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/ecmr2019/</guid>
+      <guid>https://nrottmann.github.io/publication/ecmr2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cataglyphis ant navigation strategies solve the global localization problem in robots with binary sensors</title>
-      <link>/publication/biosignals2019/</link>
+      <link>https://nrottmann.github.io/publication/biosignals2019/</link>
       <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/biosignals2019/</guid>
+      <guid>https://nrottmann.github.io/publication/biosignals2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>/authors/admin/</link>
+      <link>https://nrottmann.github.io/authors/admin/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
+      <guid>https://nrottmann.github.io/authors/admin/</guid>
       <description>&lt;p&gt;Mobile Robots. Sensors. Machine Learning. Dancing.&lt;/p&gt;
 </description>
     </item>

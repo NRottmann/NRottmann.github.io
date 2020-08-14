@@ -2,173 +2,173 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Nils Rottmann | Homepage</title>
-    <link>/tags/</link>
-      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/tags/</link>
+      <atom:link href="https://nrottmann.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Tags</title>
-      <link>/tags/</link>
+      <link>https://nrottmann.github.io/tags/</link>
     </image>
     
     <item>
       <title>Humanoids</title>
-      <link>/tags/humanoids/</link>
+      <link>https://nrottmann.github.io/tags/humanoids/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/humanoids/</guid>
+      <guid>https://nrottmann.github.io/tags/humanoids/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Optimization</title>
-      <link>/tags/optimization/</link>
+      <link>https://nrottmann.github.io/tags/optimization/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/optimization/</guid>
+      <guid>https://nrottmann.github.io/tags/optimization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reinforcement Learning</title>
-      <link>/tags/reinforcement-learning/</link>
+      <link>https://nrottmann.github.io/tags/reinforcement-learning/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/reinforcement-learning/</guid>
+      <guid>https://nrottmann.github.io/tags/reinforcement-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dynamic Movement Primitives</title>
-      <link>/tags/dynamic-movement-primitives/</link>
+      <link>https://nrottmann.github.io/tags/dynamic-movement-primitives/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/dynamic-movement-primitives/</guid>
+      <guid>https://nrottmann.github.io/tags/dynamic-movement-primitives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mobile Devices</title>
-      <link>/tags/mobile-devices/</link>
+      <link>https://nrottmann.github.io/tags/mobile-devices/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/mobile-devices/</guid>
+      <guid>https://nrottmann.github.io/tags/mobile-devices/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mobile Robotics</title>
-      <link>/tags/mobile-robotics/</link>
+      <link>https://nrottmann.github.io/tags/mobile-robotics/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/mobile-robotics/</guid>
+      <guid>https://nrottmann.github.io/tags/mobile-robotics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ROS</title>
-      <link>/tags/ros/</link>
+      <link>https://nrottmann.github.io/tags/ros/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/ros/</guid>
+      <guid>https://nrottmann.github.io/tags/ros/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Humanoid Robotics</title>
-      <link>/tags/humanoid-robotics/</link>
+      <link>https://nrottmann.github.io/tags/humanoid-robotics/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/humanoid-robotics/</guid>
+      <guid>https://nrottmann.github.io/tags/humanoid-robotics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Navigation</title>
-      <link>/tags/navigation/</link>
+      <link>https://nrottmann.github.io/tags/navigation/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/navigation/</guid>
+      <guid>https://nrottmann.github.io/tags/navigation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Planning</title>
-      <link>/tags/planning/</link>
+      <link>https://nrottmann.github.io/tags/planning/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/planning/</guid>
+      <guid>https://nrottmann.github.io/tags/planning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SLAM</title>
-      <link>/tags/slam/</link>
+      <link>https://nrottmann.github.io/tags/slam/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/slam/</guid>
+      <guid>https://nrottmann.github.io/tags/slam/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Localization</title>
-      <link>/tags/localization/</link>
+      <link>https://nrottmann.github.io/tags/localization/</link>
       <pubDate>Sat, 09 Nov 2019 16:00:00 +0000</pubDate>
-      <guid>/tags/localization/</guid>
+      <guid>https://nrottmann.github.io/tags/localization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Speech Recognition</title>
-      <link>/tags/speech-recognition/</link>
+      <link>https://nrottmann.github.io/tags/speech-recognition/</link>
       <pubDate>Thu, 12 Sep 2019 12:50:00 +0000</pubDate>
-      <guid>/tags/speech-recognition/</guid>
+      <guid>https://nrottmann.github.io/tags/speech-recognition/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mapping</title>
-      <link>/tags/mapping/</link>
+      <link>https://nrottmann.github.io/tags/mapping/</link>
       <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/mapping/</guid>
+      <guid>https://nrottmann.github.io/tags/mapping/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Face Detection</title>
-      <link>/tags/face-detection/</link>
+      <link>https://nrottmann.github.io/tags/face-detection/</link>
       <pubDate>Tue, 03 Sep 2019 12:50:00 +0000</pubDate>
-      <guid>/tags/face-detection/</guid>
+      <guid>https://nrottmann.github.io/tags/face-detection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gazebo</title>
-      <link>/tags/gazebo/</link>
+      <link>https://nrottmann.github.io/tags/gazebo/</link>
       <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/gazebo/</guid>
+      <guid>https://nrottmann.github.io/tags/gazebo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Learning</title>
-      <link>/tags/machine-learning/</link>
+      <link>https://nrottmann.github.io/tags/machine-learning/</link>
       <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/machine-learning/</guid>
+      <guid>https://nrottmann.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Medical Devices</title>
-      <link>/tags/medical-devices/</link>
+      <link>https://nrottmann.github.io/tags/medical-devices/</link>
       <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/medical-devices/</guid>
+      <guid>https://nrottmann.github.io/tags/medical-devices/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sensors</title>
-      <link>/tags/sensors/</link>
+      <link>https://nrottmann.github.io/tags/sensors/</link>
       <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/sensors/</guid>
+      <guid>https://nrottmann.github.io/tags/sensors/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modelling</title>
-      <link>/tags/modelling/</link>
+      <link>https://nrottmann.github.io/tags/modelling/</link>
       <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/tags/modelling/</guid>
+      <guid>https://nrottmann.github.io/tags/modelling/</guid>
       <description></description>
     </item>
     

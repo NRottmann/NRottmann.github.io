@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alexander Osiik | Nils Rottmann | Homepage</title>
-    <link>/authors/alexander-osiik/</link>
-      <atom:link href="/authors/alexander-osiik/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/authors/alexander-osiik/</link>
+      <atom:link href="https://nrottmann.github.io/authors/alexander-osiik/index.xml" rel="self" type="application/rss+xml" />
     <description>Alexander Osiik</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 16 Nov 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Alexander Osiik</title>
-      <link>/authors/alexander-osiik/</link>
+      <link>https://nrottmann.github.io/authors/alexander-osiik/</link>
     </image>
     
     <item>
       <title>Trajectory planning for mobile robots for working area complete coverage under high uncertainty</title>
-      <link>/thesis/alexanderosiik/</link>
+      <link>https://nrottmann.github.io/thesis/alexanderosiik/</link>
       <pubDate>Fri, 16 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/thesis/alexanderosiik/</guid>
+      <guid>https://nrottmann.github.io/thesis/alexanderosiik/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nico Studt | Nils Rottmann | Homepage</title>
-    <link>/authors/nico-studt/</link>
-      <atom:link href="/authors/nico-studt/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/authors/nico-studt/</link>
+      <atom:link href="https://nrottmann.github.io/authors/nico-studt/index.xml" rel="self" type="application/rss+xml" />
     <description>Nico Studt</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Nico Studt</title>
-      <link>/authors/nico-studt/</link>
+      <link>https://nrottmann.github.io/authors/nico-studt/</link>
     </image>
     
     <item>
       <title>Simultaneous Localization and Mapping with Room Labeling</title>
-      <link>/thesis/nicostudt/</link>
+      <link>https://nrottmann.github.io/thesis/nicostudt/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/thesis/nicostudt/</guid>
+      <guid>https://nrottmann.github.io/thesis/nicostudt/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;

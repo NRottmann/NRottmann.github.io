@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mobile Devices | Nils Rottmann | Homepage</title>
-    <link>/tags/mobile-devices/</link>
-      <atom:link href="/tags/mobile-devices/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/tags/mobile-devices/</link>
+      <atom:link href="https://nrottmann.github.io/tags/mobile-devices/index.xml" rel="self" type="application/rss+xml" />
     <description>Mobile Devices</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Mobile Devices</title>
-      <link>/tags/mobile-devices/</link>
+      <link>https://nrottmann.github.io/tags/mobile-devices/</link>
     </image>
     
     <item>
       <title>ROS-Mobile</title>
-      <link>/project/ros_mobile/</link>
+      <link>https://nrottmann.github.io/project/ros_mobile/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      <guid>/project/ros_mobile/</guid>
+      <guid>https://nrottmann.github.io/project/ros_mobile/</guid>
       <description></description>
     </item>
     

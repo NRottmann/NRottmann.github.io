@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sven Andresen | Nils Rottmann | Homepage</title>
-    <link>/authors/sven-andresen/</link>
-      <atom:link href="/authors/sven-andresen/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/authors/sven-andresen/</link>
+      <atom:link href="https://nrottmann.github.io/authors/sven-andresen/index.xml" rel="self" type="application/rss+xml" />
     <description>Sven Andresen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 23 Sep 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Sven Andresen</title>
-      <link>/authors/sven-andresen/</link>
+      <link>https://nrottmann.github.io/authors/sven-andresen/</link>
     </image>
     
     <item>
       <title>Simultaneous Localization and Mapping for Autonomous Lawn Mowers</title>
-      <link>/thesis/svenandresen/</link>
+      <link>https://nrottmann.github.io/thesis/svenandresen/</link>
       <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/thesis/svenandresen/</guid>
+      <guid>https://nrottmann.github.io/thesis/svenandresen/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;

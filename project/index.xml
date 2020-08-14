@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Nils Rottmann | Homepage</title>
-    <link>/project/</link>
-      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/project/</link>
+      <atom:link href="https://nrottmann.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Projects</title>
-      <link>/project/</link>
+      <link>https://nrottmann.github.io/project/</link>
     </image>
     
     <item>
       <title>ROS-Mobile</title>
-      <link>/project/ros_mobile/</link>
+      <link>https://nrottmann.github.io/project/ros_mobile/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      <guid>/project/ros_mobile/</guid>
+      <guid>https://nrottmann.github.io/project/ros_mobile/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Our Common Future</title>
-      <link>/project/legorobots/</link>
+      <link>https://nrottmann.github.io/project/legorobots/</link>
       <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/project/legorobots/</guid>
+      <guid>https://nrottmann.github.io/project/legorobots/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TRAIN</title>
-      <link>/project/train/</link>
+      <link>https://nrottmann.github.io/project/train/</link>
       <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/project/train/</guid>
+      <guid>https://nrottmann.github.io/project/train/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MIRANA</title>
-      <link>/project/mirana/</link>
+      <link>https://nrottmann.github.io/project/mirana/</link>
       <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/project/mirana/</guid>
+      <guid>https://nrottmann.github.io/project/mirana/</guid>
       <description></description>
     </item>
     

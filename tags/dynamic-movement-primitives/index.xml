@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dynamic Movement Primitives | Nils Rottmann | Homepage</title>
-    <link>/tags/dynamic-movement-primitives/</link>
-      <atom:link href="/tags/dynamic-movement-primitives/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/tags/dynamic-movement-primitives/</link>
+      <atom:link href="https://nrottmann.github.io/tags/dynamic-movement-primitives/index.xml" rel="self" type="application/rss+xml" />
     <description>Dynamic Movement Primitives</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Dynamic Movement Primitives</title>
-      <link>/tags/dynamic-movement-primitives/</link>
+      <link>https://nrottmann.github.io/tags/dynamic-movement-primitives/</link>
     </image>
     
     <item>
       <title>Sample-Efficient Covariance Matrix Adaptation Evolutional Strategy via Simulated Rollouts in Neural Networks</title>
-      <link>/publication/aspai2020/</link>
+      <link>https://nrottmann.github.io/publication/aspai2020/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/aspai2020/</guid>
+      <guid>https://nrottmann.github.io/publication/aspai2020/</guid>
       <description></description>
     </item>
     

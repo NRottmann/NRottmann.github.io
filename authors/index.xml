@@ -2,166 +2,166 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Nils Rottmann | Homepage</title>
-    <link>/authors/</link>
-      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/authors/</link>
+      <atom:link href="https://nrottmann.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Authors</title>
-      <link>/authors/</link>
+      <link>https://nrottmann.github.io/authors/</link>
     </image>
     
     <item>
       <title></title>
-      <link>/authors/admin/</link>
+      <link>https://nrottmann.github.io/authors/admin/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/admin/</guid>
+      <guid>https://nrottmann.github.io/authors/admin/</guid>
       <description>&lt;p&gt;Mobile Robots. Sensors. Machine Learning. Dancing.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Elmar Rueckert</title>
-      <link>/authors/elmar-rueckert/</link>
+      <link>https://nrottmann.github.io/authors/elmar-rueckert/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/elmar-rueckert/</guid>
+      <guid>https://nrottmann.github.io/authors/elmar-rueckert/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jan Babic</title>
-      <link>/authors/jan-babic/</link>
+      <link>https://nrottmann.github.io/authors/jan-babic/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/jan-babic/</guid>
+      <guid>https://nrottmann.github.io/authors/jan-babic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jan Peters</title>
-      <link>/authors/jan-peters/</link>
+      <link>https://nrottmann.github.io/authors/jan-peters/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/jan-peters/</guid>
+      <guid>https://nrottmann.github.io/authors/jan-peters/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tjasa Kunavar</title>
-      <link>/authors/tjasa-kunavar/</link>
+      <link>https://nrottmann.github.io/authors/tjasa-kunavar/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/tjasa-kunavar/</guid>
+      <guid>https://nrottmann.github.io/authors/tjasa-kunavar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gerhard Neumann</title>
-      <link>/authors/gerhard-neumann/</link>
+      <link>https://nrottmann.github.io/authors/gerhard-neumann/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/gerhard-neumann/</guid>
+      <guid>https://nrottmann.github.io/authors/gerhard-neumann/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Harit Pandya</title>
-      <link>/authors/harit-pandya/</link>
+      <link>https://nrottmann.github.io/authors/harit-pandya/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/harit-pandya/</guid>
+      <guid>https://nrottmann.github.io/authors/harit-pandya/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Honghu Xue</title>
-      <link>/authors/honghu-xue/</link>
+      <link>https://nrottmann.github.io/authors/honghu-xue/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/honghu-xue/</guid>
+      <guid>https://nrottmann.github.io/authors/honghu-xue/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ralf Bruder</title>
-      <link>/authors/ralf-bruder/</link>
+      <link>https://nrottmann.github.io/authors/ralf-bruder/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/ralf-bruder/</guid>
+      <guid>https://nrottmann.github.io/authors/ralf-bruder/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sven Boettger</title>
-      <link>/authors/sven-boettger/</link>
+      <link>https://nrottmann.github.io/authors/sven-boettger/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/authors/sven-boettger/</guid>
+      <guid>https://nrottmann.github.io/authors/sven-boettger/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Michael Werner</title>
-      <link>/authors/michael-werner/</link>
+      <link>https://nrottmann.github.io/authors/michael-werner/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/michael-werner/</guid>
+      <guid>https://nrottmann.github.io/authors/michael-werner/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nico Studt</title>
-      <link>/authors/nico-studt/</link>
+      <link>https://nrottmann.github.io/authors/nico-studt/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/nico-studt/</guid>
+      <guid>https://nrottmann.github.io/authors/nico-studt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Robin Denz</title>
-      <link>/authors/robin-denz/</link>
+      <link>https://nrottmann.github.io/authors/robin-denz/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/robin-denz/</guid>
+      <guid>https://nrottmann.github.io/authors/robin-denz/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Achim Schweikard</title>
-      <link>/authors/achim-schweikard/</link>
+      <link>https://nrottmann.github.io/authors/achim-schweikard/</link>
       <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/authors/achim-schweikard/</guid>
+      <guid>https://nrottmann.github.io/authors/achim-schweikard/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Alexander Osiik</title>
-      <link>/authors/alexander-osiik/</link>
+      <link>https://nrottmann.github.io/authors/alexander-osiik/</link>
       <pubDate>Fri, 16 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/alexander-osiik/</guid>
+      <guid>https://nrottmann.github.io/authors/alexander-osiik/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Glenn Roewekamp</title>
-      <link>/authors/glenn-roewekamp/</link>
+      <link>https://nrottmann.github.io/authors/glenn-roewekamp/</link>
       <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/glenn-roewekamp/</guid>
+      <guid>https://nrottmann.github.io/authors/glenn-roewekamp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Friedrich Podstawa</title>
-      <link>/authors/friedrich-podstawa/</link>
+      <link>https://nrottmann.github.io/authors/friedrich-podstawa/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/friedrich-podstawa/</guid>
+      <guid>https://nrottmann.github.io/authors/friedrich-podstawa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rico Klinckenberg</title>
-      <link>/authors/rico-klinckenberg/</link>
+      <link>https://nrottmann.github.io/authors/rico-klinckenberg/</link>
       <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/rico-klinckenberg/</guid>
+      <guid>https://nrottmann.github.io/authors/rico-klinckenberg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sven Andresen</title>
-      <link>/authors/sven-andresen/</link>
+      <link>https://nrottmann.github.io/authors/sven-andresen/</link>
       <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/authors/sven-andresen/</guid>
+      <guid>https://nrottmann.github.io/authors/sven-andresen/</guid>
       <description></description>
     </item>
     

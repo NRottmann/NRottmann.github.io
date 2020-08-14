@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorials | Nils Rottmann | Homepage</title>
-    <link>/tutorials/</link>
-      <atom:link href="/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/tutorials/</link>
+      <atom:link href="https://nrottmann.github.io/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <description>Tutorials</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 10 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Tutorials</title>
-      <link>/tutorials/</link>
+      <link>https://nrottmann.github.io/tutorials/</link>
     </image>
     
     <item>
       <title>Probabilistic Machine Learning</title>
-      <link>/tutorials/pml/</link>
+      <link>https://nrottmann.github.io/tutorials/pml/</link>
       <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/tutorials/pml/</guid>
+      <guid>https://nrottmann.github.io/tutorials/pml/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ROS-Gazebo Tutorial</title>
-      <link>/tutorials/rosgazebo/</link>
+      <link>https://nrottmann.github.io/tutorials/rosgazebo/</link>
       <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/tutorials/rosgazebo/</guid>
+      <guid>https://nrottmann.github.io/tutorials/rosgazebo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Raspberry Pi Configuration</title>
-      <link>/tutorials/raspberrypi/</link>
+      <link>https://nrottmann.github.io/tutorials/raspberrypi/</link>
       <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/tutorials/raspberrypi/</guid>
+      <guid>https://nrottmann.github.io/tutorials/raspberrypi/</guid>
       <description>
 
 &lt;h1 id=&#34;raspberry-pi-for-mobile-robots&#34;&gt;Raspberry Pi for Mobile Robots&lt;/h1&gt;

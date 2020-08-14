@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Modelling | Nils Rottmann | Homepage</title>
-    <link>/tags/modelling/</link>
-      <atom:link href="/tags/modelling/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/tags/modelling/</link>
+      <atom:link href="https://nrottmann.github.io/tags/modelling/index.xml" rel="self" type="application/rss+xml" />
     <description>Modelling</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 25 Sep 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Modelling</title>
-      <link>/tags/modelling/</link>
+      <link>https://nrottmann.github.io/tags/modelling/</link>
     </image>
     
     <item>
       <title>Localizsation and Control for Trajectory Tracking for Autonomous Lawn Mowers</title>
-      <link>/thesis/ricoklinckenberg/</link>
+      <link>https://nrottmann.github.io/thesis/ricoklinckenberg/</link>
       <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/thesis/ricoklinckenberg/</guid>
+      <guid>https://nrottmann.github.io/thesis/ricoklinckenberg/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;

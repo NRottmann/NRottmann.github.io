@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sensors | Nils Rottmann | Homepage</title>
-    <link>/tags/sensors/</link>
-      <atom:link href="/tags/sensors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/tags/sensors/</link>
+      <atom:link href="https://nrottmann.github.io/tags/sensors/index.xml" rel="self" type="application/rss+xml" />
     <description>Sensors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 11 Nov 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Sensors</title>
-      <link>/tags/sensors/</link>
+      <link>https://nrottmann.github.io/tags/sensors/</link>
     </image>
     
     <item>
       <title>Development of an electromagnetic Tracking System for use in Medical Interventions</title>
-      <link>/thesis/glennroewekamp/</link>
+      <link>https://nrottmann.github.io/thesis/glennroewekamp/</link>
       <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/thesis/glennroewekamp/</guid>
+      <guid>https://nrottmann.github.io/thesis/glennroewekamp/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;

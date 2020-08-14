@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Theses | Nils Rottmann | Homepage</title>
-    <link>/thesis/</link>
-      <atom:link href="/thesis/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/thesis/</link>
+      <atom:link href="https://nrottmann.github.io/thesis/index.xml" rel="self" type="application/rss+xml" />
     <description>Theses</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Theses</title>
-      <link>/thesis/</link>
+      <link>https://nrottmann.github.io/thesis/</link>
     </image>
     
     <item>
       <title>HIBO: Hierarchical Acquisition Functions for Bayesian Optimization</title>
-      <link>/thesis/michaelwerner/</link>
+      <link>https://nrottmann.github.io/thesis/michaelwerner/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/thesis/michaelwerner/</guid>
+      <guid>https://nrottmann.github.io/thesis/michaelwerner/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
@@ -27,9 +27,9 @@
     
     <item>
       <title>Simultaneous Localization and Mapping with Room Labeling</title>
-      <link>/thesis/nicostudt/</link>
+      <link>https://nrottmann.github.io/thesis/nicostudt/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/thesis/nicostudt/</guid>
+      <guid>https://nrottmann.github.io/thesis/nicostudt/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
@@ -45,9 +45,9 @@ an experimental setting.&lt;/p&gt;
     
     <item>
       <title>Complete coverage path planning for low cost robots</title>
-      <link>/thesis/robindenz/</link>
+      <link>https://nrottmann.github.io/thesis/robindenz/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/thesis/robindenz/</guid>
+      <guid>https://nrottmann.github.io/thesis/robindenz/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
@@ -68,9 +68,9 @@ compared to the random walk.&lt;/p&gt;
     
     <item>
       <title>Trajectory planning for mobile robots for working area complete coverage under high uncertainty</title>
-      <link>/thesis/alexanderosiik/</link>
+      <link>https://nrottmann.github.io/thesis/alexanderosiik/</link>
       <pubDate>Fri, 16 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/thesis/alexanderosiik/</guid>
+      <guid>https://nrottmann.github.io/thesis/alexanderosiik/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
@@ -91,9 +91,9 @@ is developed, which leads to an increased computational and storage efficiency.&
     
     <item>
       <title>Development of an electromagnetic Tracking System for use in Medical Interventions</title>
-      <link>/thesis/glennroewekamp/</link>
+      <link>https://nrottmann.github.io/thesis/glennroewekamp/</link>
       <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/thesis/glennroewekamp/</guid>
+      <guid>https://nrottmann.github.io/thesis/glennroewekamp/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
@@ -104,9 +104,9 @@ is developed, which leads to an increased computational and storage efficiency.&
     
     <item>
       <title>Optimization of a chlorophyll-sensor for mowing-area-detection for autonomous lawn mowers</title>
-      <link>/thesis/friedrichpodstawa/</link>
+      <link>https://nrottmann.github.io/thesis/friedrichpodstawa/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/thesis/friedrichpodstawa/</guid>
+      <guid>https://nrottmann.github.io/thesis/friedrichpodstawa/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
@@ -125,9 +125,9 @@ to a perfectly functioning mower surface detection sensor.&lt;/p&gt;
     
     <item>
       <title>Localizsation and Control for Trajectory Tracking for Autonomous Lawn Mowers</title>
-      <link>/thesis/ricoklinckenberg/</link>
+      <link>https://nrottmann.github.io/thesis/ricoklinckenberg/</link>
       <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/thesis/ricoklinckenberg/</guid>
+      <guid>https://nrottmann.github.io/thesis/ricoklinckenberg/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
@@ -149,9 +149,9 @@ implemented with the current architecture of the autonomous lawn mower.&lt;/p&gt
     
     <item>
       <title>Simultaneous Localization and Mapping for Autonomous Lawn Mowers</title>
-      <link>/thesis/svenandresen/</link>
+      <link>https://nrottmann.github.io/thesis/svenandresen/</link>
       <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/thesis/svenandresen/</guid>
+      <guid>https://nrottmann.github.io/thesis/svenandresen/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;

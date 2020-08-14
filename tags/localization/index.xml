@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Localization | Nils Rottmann | Homepage</title>
-    <link>/tags/localization/</link>
-      <atom:link href="/tags/localization/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/tags/localization/</link>
+      <atom:link href="https://nrottmann.github.io/tags/localization/index.xml" rel="self" type="application/rss+xml" />
     <description>Localization</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 09 Nov 2019 16:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Localization</title>
-      <link>/tags/localization/</link>
+      <link>https://nrottmann.github.io/tags/localization/</link>
     </image>
     
     <item>
       <title>MIRANA - A mobile robotic assistant</title>
-      <link>/talk/nook2019/</link>
+      <link>https://nrottmann.github.io/talk/nook2019/</link>
       <pubDate>Sat, 09 Nov 2019 16:00:00 +0000</pubDate>
-      <guid>/talk/nook2019/</guid>
+      <guid>https://nrottmann.github.io/talk/nook2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Autumn School</title>
-      <link>/talk/autumnschool2019/</link>
+      <link>https://nrottmann.github.io/talk/autumnschool2019/</link>
       <pubDate>Tue, 08 Oct 2019 08:00:00 +0000</pubDate>
-      <guid>/talk/autumnschool2019/</guid>
+      <guid>https://nrottmann.github.io/talk/autumnschool2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cataglyphis ant navigation strategies solve the global localization problem in robots with binary sensors</title>
-      <link>/publication/biosignals2019/</link>
+      <link>https://nrottmann.github.io/publication/biosignals2019/</link>
       <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/biosignals2019/</guid>
+      <guid>https://nrottmann.github.io/publication/biosignals2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development of an electromagnetic Tracking System for use in Medical Interventions</title>
-      <link>/thesis/glennroewekamp/</link>
+      <link>https://nrottmann.github.io/thesis/glennroewekamp/</link>
       <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>/thesis/glennroewekamp/</guid>
+      <guid>https://nrottmann.github.io/thesis/glennroewekamp/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;

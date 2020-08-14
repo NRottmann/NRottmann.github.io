@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Friedrich Podstawa | Nils Rottmann | Homepage</title>
-    <link>/authors/friedrich-podstawa/</link>
-      <atom:link href="/authors/friedrich-podstawa/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/authors/friedrich-podstawa/</link>
+      <atom:link href="https://nrottmann.github.io/authors/friedrich-podstawa/index.xml" rel="self" type="application/rss+xml" />
     <description>Friedrich Podstawa</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Oct 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Friedrich Podstawa</title>
-      <link>/authors/friedrich-podstawa/</link>
+      <link>https://nrottmann.github.io/authors/friedrich-podstawa/</link>
     </image>
     
     <item>
       <title>Optimization of a chlorophyll-sensor for mowing-area-detection for autonomous lawn mowers</title>
-      <link>/thesis/friedrichpodstawa/</link>
+      <link>https://nrottmann.github.io/thesis/friedrichpodstawa/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/thesis/friedrichpodstawa/</guid>
+      <guid>https://nrottmann.github.io/thesis/friedrichpodstawa/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;

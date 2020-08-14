@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Optimization | Nils Rottmann | Homepage</title>
-    <link>/tags/optimization/</link>
-      <atom:link href="/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/tags/optimization/</link>
+      <atom:link href="https://nrottmann.github.io/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
     <description>Optimization</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Optimization</title>
-      <link>/tags/optimization/</link>
+      <link>https://nrottmann.github.io/tags/optimization/</link>
     </image>
     
     <item>
       <title>Learning Hierarchical Acquisition Functions for Bayesian Optimization</title>
-      <link>/publication/iros2020/</link>
+      <link>https://nrottmann.github.io/publication/iros2020/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/iros2020/</guid>
+      <guid>https://nrottmann.github.io/publication/iros2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sample-Efficient Covariance Matrix Adaptation Evolutional Strategy via Simulated Rollouts in Neural Networks</title>
-      <link>/publication/aspai2020/</link>
+      <link>https://nrottmann.github.io/publication/aspai2020/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/aspai2020/</guid>
+      <guid>https://nrottmann.github.io/publication/aspai2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HIBO: Hierarchical Acquisition Functions for Bayesian Optimization</title>
-      <link>/thesis/michaelwerner/</link>
+      <link>https://nrottmann.github.io/thesis/michaelwerner/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/thesis/michaelwerner/</guid>
+      <guid>https://nrottmann.github.io/thesis/michaelwerner/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;

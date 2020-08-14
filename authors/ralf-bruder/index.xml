@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ralf Bruder | Nils Rottmann | Homepage</title>
-    <link>/authors/ralf-bruder/</link>
-      <atom:link href="/authors/ralf-bruder/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/authors/ralf-bruder/</link>
+      <atom:link href="https://nrottmann.github.io/authors/ralf-bruder/index.xml" rel="self" type="application/rss+xml" />
     <description>Ralf Bruder</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Ralf Bruder</title>
-      <link>/authors/ralf-bruder/</link>
+      <link>https://nrottmann.github.io/authors/ralf-bruder/</link>
     </image>
     
     <item>
       <title>Sample-Efficient Covariance Matrix Adaptation Evolutional Strategy via Simulated Rollouts in Neural Networks</title>
-      <link>/publication/aspai2020/</link>
+      <link>https://nrottmann.github.io/publication/aspai2020/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/aspai2020/</guid>
+      <guid>https://nrottmann.github.io/publication/aspai2020/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Loop Closure Detection in Closed Environments</title>
-      <link>/publication/ecmr2019/</link>
+      <link>https://nrottmann.github.io/publication/ecmr2019/</link>
       <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/ecmr2019/</guid>
+      <guid>https://nrottmann.github.io/publication/ecmr2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cataglyphis ant navigation strategies solve the global localization problem in robots with binary sensors</title>
-      <link>/publication/biosignals2019/</link>
+      <link>https://nrottmann.github.io/publication/biosignals2019/</link>
       <pubDate>Thu, 21 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/biosignals2019/</guid>
+      <guid>https://nrottmann.github.io/publication/biosignals2019/</guid>
       <description></description>
     </item>
     

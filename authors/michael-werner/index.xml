@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Michael Werner | Nils Rottmann | Homepage</title>
-    <link>/authors/michael-werner/</link>
-      <atom:link href="/authors/michael-werner/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/authors/michael-werner/</link>
+      <atom:link href="https://nrottmann.github.io/authors/michael-werner/index.xml" rel="self" type="application/rss+xml" />
     <description>Michael Werner</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Michael Werner</title>
-      <link>/authors/michael-werner/</link>
+      <link>https://nrottmann.github.io/authors/michael-werner/</link>
     </image>
     
     <item>
       <title>HIBO: Hierarchical Acquisition Functions for Bayesian Optimization</title>
-      <link>/thesis/michaelwerner/</link>
+      <link>https://nrottmann.github.io/thesis/michaelwerner/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/thesis/michaelwerner/</guid>
+      <guid>https://nrottmann.github.io/thesis/michaelwerner/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;

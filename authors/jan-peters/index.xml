@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jan Peters | Nils Rottmann | Homepage</title>
-    <link>/authors/jan-peters/</link>
-      <atom:link href="/authors/jan-peters/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/authors/jan-peters/</link>
+      <atom:link href="https://nrottmann.github.io/authors/jan-peters/index.xml" rel="self" type="application/rss+xml" />
     <description>Jan Peters</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Jan Peters</title>
-      <link>/authors/jan-peters/</link>
+      <link>https://nrottmann.github.io/authors/jan-peters/</link>
     </image>
     
     <item>
       <title>Learning Hierarchical Acquisition Functions for Bayesian Optimization</title>
-      <link>/publication/iros2020/</link>
+      <link>https://nrottmann.github.io/publication/iros2020/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/iros2020/</guid>
+      <guid>https://nrottmann.github.io/publication/iros2020/</guid>
       <description></description>
     </item>
     

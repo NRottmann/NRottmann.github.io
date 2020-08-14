@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SLAM | Nils Rottmann | Homepage</title>
-    <link>/tags/slam/</link>
-      <atom:link href="/tags/slam/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://nrottmann.github.io/tags/slam/</link>
+      <atom:link href="https://nrottmann.github.io/tags/slam/index.xml" rel="self" type="application/rss+xml" />
     <description>SLAM</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>SLAM</title>
-      <link>/tags/slam/</link>
+      <link>https://nrottmann.github.io/tags/slam/</link>
     </image>
     
     <item>
       <title>Simultaneous Localization and Mapping with Room Labeling</title>
-      <link>/thesis/nicostudt/</link>
+      <link>https://nrottmann.github.io/thesis/nicostudt/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/thesis/nicostudt/</guid>
+      <guid>https://nrottmann.github.io/thesis/nicostudt/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
@@ -32,49 +32,49 @@ an experimental setting.&lt;/p&gt;
     
     <item>
       <title>MIRANA - A mobile robotic assistant</title>
-      <link>/talk/nook2019/</link>
+      <link>https://nrottmann.github.io/talk/nook2019/</link>
       <pubDate>Sat, 09 Nov 2019 16:00:00 +0000</pubDate>
-      <guid>/talk/nook2019/</guid>
+      <guid>https://nrottmann.github.io/talk/nook2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Autumn School</title>
-      <link>/talk/autumnschool2019/</link>
+      <link>https://nrottmann.github.io/talk/autumnschool2019/</link>
       <pubDate>Tue, 08 Oct 2019 08:00:00 +0000</pubDate>
-      <guid>/talk/autumnschool2019/</guid>
+      <guid>https://nrottmann.github.io/talk/autumnschool2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Healthcare Hackathon Kiel - MIRANA Introduction</title>
-      <link>/talk/hhkiel2019/</link>
+      <link>https://nrottmann.github.io/talk/hhkiel2019/</link>
       <pubDate>Thu, 12 Sep 2019 12:50:00 +0000</pubDate>
-      <guid>/talk/hhkiel2019/</guid>
+      <guid>https://nrottmann.github.io/talk/hhkiel2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Loop Closure Detection in Closed Environments</title>
-      <link>/publication/ecmr2019/</link>
+      <link>https://nrottmann.github.io/publication/ecmr2019/</link>
       <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/ecmr2019/</guid>
+      <guid>https://nrottmann.github.io/publication/ecmr2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Think at IBM</title>
-      <link>/talk/thinkatibm2019/</link>
+      <link>https://nrottmann.github.io/talk/thinkatibm2019/</link>
       <pubDate>Tue, 12 Mar 2019 12:50:00 +0000</pubDate>
-      <guid>/talk/thinkatibm2019/</guid>
+      <guid>https://nrottmann.github.io/talk/thinkatibm2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Optimization of a chlorophyll-sensor for mowing-area-detection for autonomous lawn mowers</title>
-      <link>/thesis/friedrichpodstawa/</link>
+      <link>https://nrottmann.github.io/thesis/friedrichpodstawa/</link>
       <pubDate>Sun, 07 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/thesis/friedrichpodstawa/</guid>
+      <guid>https://nrottmann.github.io/thesis/friedrichpodstawa/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
@@ -93,9 +93,9 @@ to a perfectly functioning mower surface detection sensor.&lt;/p&gt;
     
     <item>
       <title>Simultaneous Localization and Mapping for Autonomous Lawn Mowers</title>
-      <link>/thesis/svenandresen/</link>
+      <link>https://nrottmann.github.io/thesis/svenandresen/</link>
       <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/thesis/svenandresen/</guid>
+      <guid>https://nrottmann.github.io/thesis/svenandresen/</guid>
       <description>
 
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
