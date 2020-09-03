@@ -5,12 +5,20 @@
     <link>https://nrottmann.github.io/tags/mobile-robotics/</link>
       <atom:link href="https://nrottmann.github.io/tags/mobile-robotics/index.xml" rel="self" type="application/rss+xml" />
     <description>Mobile Robotics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 22 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Mobile Robotics</title>
       <link>https://nrottmann.github.io/tags/mobile-robotics/</link>
     </image>
+    
+    <item>
+      <title>Parameter Optimization for Loop Closure Detection in Closed Environments</title>
+      <link>https://nrottmann.github.io/publication/iros2020ws/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/publication/iros2020ws/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ROS-Mobile</title>

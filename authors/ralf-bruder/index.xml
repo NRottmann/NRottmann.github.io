@@ -5,12 +5,28 @@
     <link>https://nrottmann.github.io/authors/ralf-bruder/</link>
       <atom:link href="https://nrottmann.github.io/authors/ralf-bruder/index.xml" rel="self" type="application/rss+xml" />
     <description>Ralf Bruder</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Ralf Bruder</title>
       <link>https://nrottmann.github.io/authors/ralf-bruder/</link>
     </image>
+    
+    <item>
+      <title>Exploiting Chlorophyll Fluorescense for building robust low-cost Mowing Area Detectors</title>
+      <link>https://nrottmann.github.io/publication/sensorconf2020/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/publication/sensorconf2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parameter Optimization for Loop Closure Detection in Closed Environments</title>
+      <link>https://nrottmann.github.io/publication/iros2020ws/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/publication/iros2020ws/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Sample-Efficient Covariance Matrix Adaptation Evolutional Strategy via Simulated Rollouts in Neural Networks</title>

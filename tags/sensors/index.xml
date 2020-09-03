@@ -5,12 +5,20 @@
     <link>https://nrottmann.github.io/tags/sensors/</link>
       <atom:link href="https://nrottmann.github.io/tags/sensors/index.xml" rel="self" type="application/rss+xml" />
     <description>Sensors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 11 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Sensors</title>
       <link>https://nrottmann.github.io/tags/sensors/</link>
     </image>
+    
+    <item>
+      <title>Exploiting Chlorophyll Fluorescense for building robust low-cost Mowing Area Detectors</title>
+      <link>https://nrottmann.github.io/publication/sensorconf2020/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/publication/sensorconf2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Development of an electromagnetic Tracking System for use in Medical Interventions</title>

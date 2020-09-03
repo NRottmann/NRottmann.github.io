@@ -21,6 +21,22 @@
     </item>
     
     <item>
+      <title>Mapping</title>
+      <link>https://nrottmann.github.io/tags/mapping/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/tags/mapping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile Robotics</title>
+      <link>https://nrottmann.github.io/tags/mobile-robotics/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/tags/mobile-robotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Optimization</title>
       <link>https://nrottmann.github.io/tags/optimization/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
@@ -37,6 +53,14 @@
     </item>
     
     <item>
+      <title>Sensors</title>
+      <link>https://nrottmann.github.io/tags/sensors/</link>
+      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/tags/sensors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dynamic Movement Primitives</title>
       <link>https://nrottmann.github.io/tags/dynamic-movement-primitives/</link>
       <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
@@ -49,14 +73,6 @@
       <link>https://nrottmann.github.io/tags/mobile-devices/</link>
       <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/tags/mobile-devices/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mobile Robotics</title>
-      <link>https://nrottmann.github.io/tags/mobile-robotics/</link>
-      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/tags/mobile-robotics/</guid>
       <description></description>
     </item>
     
@@ -117,14 +133,6 @@
     </item>
     
     <item>
-      <title>Mapping</title>
-      <link>https://nrottmann.github.io/tags/mapping/</link>
-      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/tags/mapping/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Face Detection</title>
       <link>https://nrottmann.github.io/tags/face-detection/</link>
       <pubDate>Tue, 03 Sep 2019 12:50:00 +0000</pubDate>
@@ -153,14 +161,6 @@
       <link>https://nrottmann.github.io/tags/medical-devices/</link>
       <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/tags/medical-devices/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sensors</title>
-      <link>https://nrottmann.github.io/tags/sensors/</link>
-      <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/tags/sensors/</guid>
       <description></description>
     </item>
     
