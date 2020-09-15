@@ -5,12 +5,28 @@
     <link>https://nrottmann.github.io/tags/reinforcement-learning/</link>
       <atom:link href="https://nrottmann.github.io/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Reinforcement Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 08:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Reinforcement Learning</title>
       <link>https://nrottmann.github.io/tags/reinforcement-learning/</link>
     </image>
+    
+    <item>
+      <title>Learning Hierarchical Acquisition Functions for Bayesian Optimization</title>
+      <link>https://nrottmann.github.io/talk/iros2020/</link>
+      <pubDate>Sun, 25 Oct 2020 08:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/talk/iros2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parameter Optimization for Loop Closure Detection in Closed Environments</title>
+      <link>https://nrottmann.github.io/talk/irosws2020/</link>
+      <pubDate>Sun, 25 Oct 2020 08:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/talk/irosws2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Learning Hierarchical Acquisition Functions for Bayesian Optimization</title>

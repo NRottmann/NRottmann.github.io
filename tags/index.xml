@@ -5,7 +5,7 @@
     <link>https://nrottmann.github.io/tags/</link>
       <atom:link href="https://nrottmann.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 08:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Tags</title>
@@ -15,8 +15,40 @@
     <item>
       <title>Humanoids</title>
       <link>https://nrottmann.github.io/tags/humanoids/</link>
-      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Oct 2020 08:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/tags/humanoids/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile Robotics</title>
+      <link>https://nrottmann.github.io/tags/mobile-robotics/</link>
+      <pubDate>Sun, 25 Oct 2020 08:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/tags/mobile-robotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimization</title>
+      <link>https://nrottmann.github.io/tags/optimization/</link>
+      <pubDate>Sun, 25 Oct 2020 08:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/tags/optimization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>https://nrottmann.github.io/tags/reinforcement-learning/</link>
+      <pubDate>Sun, 25 Oct 2020 08:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/tags/reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sensors</title>
+      <link>https://nrottmann.github.io/tags/sensors/</link>
+      <pubDate>Sun, 25 Oct 2020 08:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/tags/sensors/</guid>
       <description></description>
     </item>
     
@@ -25,38 +57,6 @@
       <link>https://nrottmann.github.io/tags/mapping/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/tags/mapping/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mobile Robotics</title>
-      <link>https://nrottmann.github.io/tags/mobile-robotics/</link>
-      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/tags/mobile-robotics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Optimization</title>
-      <link>https://nrottmann.github.io/tags/optimization/</link>
-      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/tags/optimization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reinforcement Learning</title>
-      <link>https://nrottmann.github.io/tags/reinforcement-learning/</link>
-      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/tags/reinforcement-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sensors</title>
-      <link>https://nrottmann.github.io/tags/sensors/</link>
-      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/tags/sensors/</guid>
       <description></description>
     </item>
     

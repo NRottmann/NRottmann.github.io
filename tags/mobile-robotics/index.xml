@@ -5,12 +5,28 @@
     <link>https://nrottmann.github.io/tags/mobile-robotics/</link>
       <atom:link href="https://nrottmann.github.io/tags/mobile-robotics/index.xml" rel="self" type="application/rss+xml" />
     <description>Mobile Robotics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 08:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Mobile Robotics</title>
       <link>https://nrottmann.github.io/tags/mobile-robotics/</link>
     </image>
+    
+    <item>
+      <title>Exploiting Chlorophyll Fluorescense for building robust low-cost Mowing Area Detectors</title>
+      <link>https://nrottmann.github.io/talk/sensors2020/</link>
+      <pubDate>Sun, 25 Oct 2020 08:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/talk/sensors2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parameter Optimization for Loop Closure Detection in Closed Environments</title>
+      <link>https://nrottmann.github.io/talk/irosws2020/</link>
+      <pubDate>Sun, 25 Oct 2020 08:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/talk/irosws2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Parameter Optimization for Loop Closure Detection in Closed Environments</title>
