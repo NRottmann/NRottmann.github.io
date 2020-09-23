@@ -270,7 +270,7 @@ compared to the random walk.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;#ROSWeb&#34;&gt;ROS over Mobile Web&lt;/a&gt; &lt;br/&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;#Test&#34;&gt;Test the System&lt;/a&gt; &lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;#Video&#34;&gt;Video for Linux (V4L) and ROS&lt;/a&gt; &lt;br/&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;#EIGEN&#34;&gt;Eigen3 Installation&lt;/a&gt; &lt;br/&gt;&lt;/p&gt;
 
@@ -374,7 +374,7 @@ rosdep update
 echo &amp;quot;source /opt/ros/melodic/setup.bash&amp;quot; &amp;gt;&amp;gt; ~/.bashrc
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;ROS is now completely set up. If you require additional packages, follow up &lt;a href=&#34;[http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi#Adding_Released_Packages](http://wiki.ros.org/ROSberryPi/Installing ROS Melodic on the Raspberry Pi#Adding_Released_Packages)&#34; target=&#34;_blank&#34;&gt;this procedure&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;ROS is now completely set up. If you require additional packages, follow up &lt;a href=&#34;http://wiki.ros.org/ROSberryPi/Installing ROS Melodic on the Raspberry Pi#Adding_Released_Packages&#34; target=&#34;_blank&#34;&gt;this procedure&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;wlan-configuration-a-name-wlan-a&#34;&gt;WLAN Configuration &lt;a name=&#34;WLAN&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
 
@@ -581,12 +581,17 @@ exit
 
 &lt;h2 id=&#34;mobile-web-a-name-web-a&#34;&gt;Mobile Web &lt;a name=&#34;Web&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
 
-&lt;p&gt;To allow the Raspberry Pi to connect to the Mobile Web, we can use the &lt;a href=&#34;https://sixfab.com/product/raspberry-pi-base-hat-3g-4g-lte-minipcie-cards/&#34; target=&#34;_blank&#34;&gt;Raspberry Pi 3G/4G &amp;amp; LTE Base HAT&lt;/a&gt; together with a prepaid mobile SIMcard (e.g. Aldi Talk). Follow up &lt;a href=&#34;https://sixfab.com/category/raspberry-pi-3g-4g-lte-base-shield/&#34; target=&#34;_blank&#34;&gt;this tutorial&lt;/a&gt; to get started. You require your APN, which would be for Aldi Talk&lt;/p&gt;
+&lt;p&gt;To allow the Raspberry Pi to connect to the Mobile Web, we can use the &lt;a href=&#34;https://sixfab.com/product/raspberry-pi-base-hat-3g-4g-lte-minipcie-cards/&#34; target=&#34;_blank&#34;&gt;Raspberry Pi 3G/4G &amp;amp; LTE Base HAT&lt;/a&gt; together with a prepaid mobile SIMcard (e.g. Aldi Talk). Follow up &lt;a href=&#34;https://sixfab.com/ppp-installer-for-sixfab-shield-hat/&#34; target=&#34;_blank&#34;&gt;this tutorial&lt;/a&gt; to get started. You require your APN, which would be for Aldi Talk&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;internet.eplus.de
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;You can test your internet connection by using &amp;ldquo;nslookup&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;You can test your internet connection by installing&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo apt install dnsutils
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and using &amp;ldquo;nslookup&amp;rdquo;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;nslookup google.de
 &lt;/code&gt;&lt;/pre&gt;
@@ -787,7 +792,7 @@ verb 3
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo openvpn client.conf
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;test-the-system-a-name-test-a&#34;&gt;Test the System &lt;a name=&#34;Test&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h4 id=&#34;test-the-system&#34;&gt;Test the System&lt;/h4&gt;
 
 &lt;p&gt;In order to check if our system works for sending ROS messages, we can use a simple talker node. Therefore, download the &lt;a href=&#34;https://drive.google.com/drive/folders/1PC52Sx3O7vkILSU1u4OL9ehUbs8QH7KW?usp=sharing&#34; target=&#34;_blank&#34;&gt;sample code&lt;/a&gt; onto one of your clients which consist of a ROS package, which should be placed into the &amp;ldquo;src&amp;rdquo; folder of a catkin workspace. Thus, we first create such a workspace and &amp;ldquo;src&amp;rdquo; folder&lt;/p&gt;
 
@@ -807,6 +812,63 @@ catkin_make
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Now, we can try to listen to the chatter topic from a different client or from the server. Be aware, that you also have to set the correct IP address onto these system.&lt;/p&gt;
+
+&lt;h2 id=&#34;video-for-linux-v4l-and-ros-a-name-video-a&#34;&gt;Video for Linux (V4L) and ROS&lt;a name=&#34;Video&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Let&amp;rsquo;s assume you have a V4L compatible camera which you can simply plug in to one of the USB ports of the Raspberry Pi. You can check whether the camera is correctly recognized by typing&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;ls /dev/video*
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You should get some video devices as return, e.g. /dev/video0 or /dev/video1. The different devices stand for different output formats of the connected camera, e.g. MJPG or H.264. In order to check this as well as supported framerates and framesizes, type&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;v4l2-ctl --device=0 --list-formats-ext
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;streaming-via-vlc&#34;&gt;Streaming via VLC&lt;/h4&gt;
+
+&lt;p&gt;We can now feed forward the video stream via a VLC server installing first VLC&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo apt-get install vlc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and then using&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;cvlc -vvv v4l2:///dev/video0 --sout &#39;#rtp{sdp=rtsp://:8554/}&#39; :demux=h264
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To get access to the stream, we can now open the VLC media player on any other device connected to the same network as the Raspberry Pi, open the Tab &amp;ldquo;media&amp;rdquo;, open &amp;ldquo;open network stream&amp;rdquo; and insert&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rtsp://141.83.19.37:8554/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;video-to-ros&#34;&gt;Video to ROS&lt;/h4&gt;
+
+&lt;p&gt;In order to feed forward video data to the ROS system, we can use &amp;ldquo;usb_cam&amp;rdquo; together with &amp;ldquo;compressed_image_transport&amp;rdquo;. Unfortunately, ROS currently does not support the H.264 format such that we have to use the MJPG compression format. Start now by installing the required nodes following up &lt;a href=&#34;http://wiki.ros.org/ROSberryPi/Installing ROS Melodic on the Raspberry Pi#Adding_Released_Packages&#34; target=&#34;_blank&#34;&gt;this procedure&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;cd ~/ros_catkin_ws
+rosinstall_generator usb_cam compressed_image_transport --rosdistro melodic --deps --wet-only --tar &amp;gt; melodic-custom_ros.rosinstall
+wstool merge -t src melodic-custom_ros.rosinstall
+wstool update -t src
+rosdep install --from-paths src --ignore-src --rosdistro melodic -y -r --os=debian:buster
+sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release --install-space /opt/ros/melodic -j1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After installing everything, we can then create a launch file&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;&amp;lt;launch&amp;gt;
+  &amp;lt;node name=&amp;quot;usb_cam&amp;quot; pkg=&amp;quot;usb_cam&amp;quot; type=&amp;quot;usb_cam_node&amp;quot; output=&amp;quot;screen&amp;quot; &amp;gt;
+    &amp;lt;param name=&amp;quot;video_device&amp;quot; value=&amp;quot;/dev/video0&amp;quot; /&amp;gt;
+    &amp;lt;param name=&amp;quot;image_width&amp;quot; value=&amp;quot;640&amp;quot; /&amp;gt;
+    &amp;lt;param name=&amp;quot;image_height&amp;quot; value=&amp;quot;480&amp;quot; /&amp;gt;
+    &amp;lt;param name=&amp;quot;pixel_format&amp;quot; value=&amp;quot;yuyv&amp;quot; /&amp;gt;
+    &amp;lt;param name=&amp;quot;camera_frame_id&amp;quot; value=&amp;quot;usb_cam&amp;quot; /&amp;gt;
+    &amp;lt;param name=&amp;quot;io_method&amp;quot; value=&amp;quot;mmap&amp;quot;/&amp;gt;
+  &amp;lt;/node&amp;gt;
+&amp;lt;/launch&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;filling up the correct parameters which can be detected with above mentioned &amp;ldquo;cvlc&amp;rdquo;.&lt;/p&gt;
 
 &lt;h2 id=&#34;eigen3-installation-a-name-eigen-a&#34;&gt;Eigen3 Installation &lt;a name=&#34;EIGEN&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
 

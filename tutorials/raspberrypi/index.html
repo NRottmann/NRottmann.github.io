@@ -688,7 +688,7 @@
 
 <p><a href="#ROSWeb">ROS over Mobile Web</a> <br/></p>
 
-<p><a href="#Test">Test the System</a> <br/></p>
+<p><a href="#Video">Video for Linux (V4L) and ROS</a> <br/></p>
 
 <p><a href="#EIGEN">Eigen3 Installation</a> <br/></p>
 
@@ -792,7 +792,7 @@ rosdep update
 echo &quot;source /opt/ros/melodic/setup.bash&quot; &gt;&gt; ~/.bashrc
 </code></pre>
 
-<p>ROS is now completely set up. If you require additional packages, follow up <a href="[http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Melodic%20on%20the%20Raspberry%20Pi#Adding_Released_Packages](http://wiki.ros.org/ROSberryPi/Installing ROS Melodic on the Raspberry Pi#Adding_Released_Packages)" target="_blank">this procedure</a>.</p>
+<p>ROS is now completely set up. If you require additional packages, follow up <a href="http://wiki.ros.org/ROSberryPi/Installing ROS Melodic on the Raspberry Pi#Adding_Released_Packages" target="_blank">this procedure</a>.</p>
 
 <h2 id="wlan-configuration-a-name-wlan-a">WLAN Configuration <a name="WLAN"></a></h2>
 
@@ -999,12 +999,17 @@ exit
 
 <h2 id="mobile-web-a-name-web-a">Mobile Web <a name="Web"></a></h2>
 
-<p>To allow the Raspberry Pi to connect to the Mobile Web, we can use the <a href="https://sixfab.com/product/raspberry-pi-base-hat-3g-4g-lte-minipcie-cards/" target="_blank">Raspberry Pi 3G/4G &amp; LTE Base HAT</a> together with a prepaid mobile SIMcard (e.g. Aldi Talk). Follow up <a href="https://sixfab.com/category/raspberry-pi-3g-4g-lte-base-shield/" target="_blank">this tutorial</a> to get started. You require your APN, which would be for Aldi Talk</p>
+<p>To allow the Raspberry Pi to connect to the Mobile Web, we can use the <a href="https://sixfab.com/product/raspberry-pi-base-hat-3g-4g-lte-minipcie-cards/" target="_blank">Raspberry Pi 3G/4G &amp; LTE Base HAT</a> together with a prepaid mobile SIMcard (e.g. Aldi Talk). Follow up <a href="https://sixfab.com/ppp-installer-for-sixfab-shield-hat/" target="_blank">this tutorial</a> to get started. You require your APN, which would be for Aldi Talk</p>
 
 <pre><code>internet.eplus.de
 </code></pre>
 
-<p>You can test your internet connection by using &ldquo;nslookup&rdquo;</p>
+<p>You can test your internet connection by installing</p>
+
+<pre><code class="language-shell">sudo apt install dnsutils
+</code></pre>
+
+<p>and using &ldquo;nslookup&rdquo;</p>
 
 <pre><code class="language-shell">nslookup google.de
 </code></pre>
@@ -1205,7 +1210,7 @@ verb 3
 <pre><code class="language-shell">sudo openvpn client.conf
 </code></pre>
 
-<h2 id="test-the-system-a-name-test-a">Test the System <a name="Test"></a></h2>
+<h4 id="test-the-system">Test the System</h4>
 
 <p>In order to check if our system works for sending ROS messages, we can use a simple talker node. Therefore, download the <a href="https://drive.google.com/drive/folders/1PC52Sx3O7vkILSU1u4OL9ehUbs8QH7KW?usp=sharing" target="_blank">sample code</a> onto one of your clients which consist of a ROS package, which should be placed into the &ldquo;src&rdquo; folder of a catkin workspace. Thus, we first create such a workspace and &ldquo;src&rdquo; folder</p>
 
@@ -1225,6 +1230,63 @@ catkin_make
 </code></pre>
 
 <p>Now, we can try to listen to the chatter topic from a different client or from the server. Be aware, that you also have to set the correct IP address onto these system.</p>
+
+<h2 id="video-for-linux-v4l-and-ros-a-name-video-a">Video for Linux (V4L) and ROS<a name="Video"></a></h2>
+
+<p>Let&rsquo;s assume you have a V4L compatible camera which you can simply plug in to one of the USB ports of the Raspberry Pi. You can check whether the camera is correctly recognized by typing</p>
+
+<pre><code class="language-shell">ls /dev/video*
+</code></pre>
+
+<p>You should get some video devices as return, e.g. /dev/video0 or /dev/video1. The different devices stand for different output formats of the connected camera, e.g. MJPG or H.264. In order to check this as well as supported framerates and framesizes, type</p>
+
+<pre><code class="language-shell">v4l2-ctl --device=0 --list-formats-ext
+</code></pre>
+
+<h4 id="streaming-via-vlc">Streaming via VLC</h4>
+
+<p>We can now feed forward the video stream via a VLC server installing first VLC</p>
+
+<pre><code class="language-shell">sudo apt-get install vlc
+</code></pre>
+
+<p>and then using</p>
+
+<pre><code class="language-shell">cvlc -vvv v4l2:///dev/video0 --sout '#rtp{sdp=rtsp://:8554/}' :demux=h264
+</code></pre>
+
+<p>To get access to the stream, we can now open the VLC media player on any other device connected to the same network as the Raspberry Pi, open the Tab &ldquo;media&rdquo;, open &ldquo;open network stream&rdquo; and insert</p>
+
+<pre><code>rtsp://141.83.19.37:8554/
+</code></pre>
+
+<h4 id="video-to-ros">Video to ROS</h4>
+
+<p>In order to feed forward video data to the ROS system, we can use &ldquo;usb_cam&rdquo; together with &ldquo;compressed_image_transport&rdquo;. Unfortunately, ROS currently does not support the H.264 format such that we have to use the MJPG compression format. Start now by installing the required nodes following up <a href="http://wiki.ros.org/ROSberryPi/Installing ROS Melodic on the Raspberry Pi#Adding_Released_Packages" target="_blank">this procedure</a></p>
+
+<pre><code class="language-shell">cd ~/ros_catkin_ws
+rosinstall_generator usb_cam compressed_image_transport --rosdistro melodic --deps --wet-only --tar &gt; melodic-custom_ros.rosinstall
+wstool merge -t src melodic-custom_ros.rosinstall
+wstool update -t src
+rosdep install --from-paths src --ignore-src --rosdistro melodic -y -r --os=debian:buster
+sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release --install-space /opt/ros/melodic -j1
+</code></pre>
+
+<p>After installing everything, we can then create a launch file</p>
+
+<pre><code class="language-shell">&lt;launch&gt;
+  &lt;node name=&quot;usb_cam&quot; pkg=&quot;usb_cam&quot; type=&quot;usb_cam_node&quot; output=&quot;screen&quot; &gt;
+    &lt;param name=&quot;video_device&quot; value=&quot;/dev/video0&quot; /&gt;
+    &lt;param name=&quot;image_width&quot; value=&quot;640&quot; /&gt;
+    &lt;param name=&quot;image_height&quot; value=&quot;480&quot; /&gt;
+    &lt;param name=&quot;pixel_format&quot; value=&quot;yuyv&quot; /&gt;
+    &lt;param name=&quot;camera_frame_id&quot; value=&quot;usb_cam&quot; /&gt;
+    &lt;param name=&quot;io_method&quot; value=&quot;mmap&quot;/&gt;
+  &lt;/node&gt;
+&lt;/launch&gt;
+</code></pre>
+
+<p>filling up the correct parameters which can be detected with above mentioned &ldquo;cvlc&rdquo;.</p>
 
 <h2 id="eigen3-installation-a-name-eigen-a">Eigen3 Installation <a name="EIGEN"></a></h2>
 
