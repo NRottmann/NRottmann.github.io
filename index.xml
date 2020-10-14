@@ -262,6 +262,8 @@ compared to the random walk.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;#WLAN&#34;&gt;WLAN Configuration&lt;/a&gt; &lt;br/&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;a href=&#34;#ExtWLAN&#34;&gt;External WLAN Connection&lt;/a&gt; &lt;br/&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;a href=&#34;#UART&#34;&gt;Enable SPI and UART Connection&lt;/a&gt; &lt;br/&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;#USB&#34;&gt;Define static addresses for USB ports&lt;/a&gt; &lt;br/&gt;&lt;/p&gt;
@@ -521,6 +523,28 @@ sudo systemctl enable hostapd
 &lt;p&gt;where &amp;ldquo;active&amp;rdquo; and &amp;ldquo;loaded&amp;rdquo; should be stated. We can now access the WLAN &amp;ldquo;myRobotWLAN&amp;rdquo; and connect via SSH to our Raspberry Pi.&lt;/p&gt;
 
 &lt;p&gt;You can also find the presented tutorial &lt;a href=&#34;https://www.elektronik-kompendium.de/sites/raspberry-pi/2002171.htm&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; (it is in german).&lt;/p&gt;
+
+&lt;h2 id=&#34;external-wlan-connection-a-name-extwlan-a&#34;&gt;External WLAN Connection&lt;a name=&#34;ExtWLAN&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;If you want the Raspberry to access an external WLAN instead of open an own one, just open&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo nano /etc/network/interfaces
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and add the WLAN specification&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;# External WLAN
+allow-hotplug wlan0
+iface wlan0 inet manual
+wpa-ssid &amp;quot;WLAN-NAME&amp;quot;
+wpa-psk &amp;quot;WLAN-PASSWORT&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Afterwards, restart the interface&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo ifdown wlan0
+sudo ifup wlan0
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;enable-spi-and-uart-connection-a-name-uart-a&#34;&gt;Enable SPI and UART Connection &lt;a name=&#34;UART&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
 

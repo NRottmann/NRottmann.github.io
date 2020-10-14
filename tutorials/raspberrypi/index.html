@@ -680,6 +680,8 @@
 
 <p><a href="#WLAN">WLAN Configuration</a> <br/></p>
 
+<p><a href="#ExtWLAN">External WLAN Connection</a> <br/></p>
+
 <p><a href="#UART">Enable SPI and UART Connection</a> <br/></p>
 
 <p><a href="#USB">Define static addresses for USB ports</a> <br/></p>
@@ -939,6 +941,28 @@ sudo systemctl enable hostapd
 <p>where &ldquo;active&rdquo; and &ldquo;loaded&rdquo; should be stated. We can now access the WLAN &ldquo;myRobotWLAN&rdquo; and connect via SSH to our Raspberry Pi.</p>
 
 <p>You can also find the presented tutorial <a href="https://www.elektronik-kompendium.de/sites/raspberry-pi/2002171.htm" target="_blank">here</a> (it is in german).</p>
+
+<h2 id="external-wlan-connection-a-name-extwlan-a">External WLAN Connection<a name="ExtWLAN"></a></h2>
+
+<p>If you want the Raspberry to access an external WLAN instead of open an own one, just open</p>
+
+<pre><code class="language-shell">sudo nano /etc/network/interfaces
+</code></pre>
+
+<p>and add the WLAN specification</p>
+
+<pre><code class="language-shell"># External WLAN
+allow-hotplug wlan0
+iface wlan0 inet manual
+wpa-ssid &quot;WLAN-NAME&quot;
+wpa-psk &quot;WLAN-PASSWORT&quot;
+</code></pre>
+
+<p>Afterwards, restart the interface</p>
+
+<pre><code class="language-shell">sudo ifdown wlan0
+sudo ifup wlan0
+</code></pre>
 
 <h2 id="enable-spi-and-uart-connection-a-name-uart-a">Enable SPI and UART Connection <a name="UART"></a></h2>
 
