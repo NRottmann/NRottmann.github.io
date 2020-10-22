@@ -5,12 +5,20 @@
     <link>https://nrottmann.github.io/authors/achim-schweikard/</link>
       <atom:link href="https://nrottmann.github.io/authors/achim-schweikard/index.xml" rel="self" type="application/rss+xml" />
     <description>Achim Schweikard</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Achim Schweikard</title>
       <link>https://nrottmann.github.io/authors/achim-schweikard/</link>
     </image>
+    
+    <item>
+      <title>A novel Chlorophyll Fluorescence based approach for Mowing Area Classiﬁcation</title>
+      <link>https://nrottmann.github.io/publication/sensorjournal2020/</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/publication/sensorjournal2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Exploiting Chlorophyll Fluorescense for building robust low-cost Mowing Area Detectors</title>

@@ -5,12 +5,20 @@
     <link>https://nrottmann.github.io/tags/mobile-robotics/</link>
       <atom:link href="https://nrottmann.github.io/tags/mobile-robotics/index.xml" rel="self" type="application/rss+xml" />
     <description>Mobile Robotics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 08:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Mobile Robotics</title>
       <link>https://nrottmann.github.io/tags/mobile-robotics/</link>
     </image>
+    
+    <item>
+      <title>A novel Chlorophyll Fluorescence based approach for Mowing Area Classiﬁcation</title>
+      <link>https://nrottmann.github.io/publication/sensorjournal2020/</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/publication/sensorjournal2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Exploiting Chlorophyll Fluorescense for building robust low-cost Mowing Area Detectors</title>
@@ -33,6 +41,22 @@
       <link>https://nrottmann.github.io/publication/iros2020ws/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/publication/iros2020ws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A-DRZ</title>
+      <link>https://nrottmann.github.io/project/a_drz/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/project/a_drz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autumn School</title>
+      <link>https://nrottmann.github.io/talk/autumnschool2020/</link>
+      <pubDate>Mon, 12 Oct 2020 08:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/talk/autumnschool2020/</guid>
       <description></description>
     </item>
     

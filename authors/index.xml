@@ -5,7 +5,7 @@
     <link>https://nrottmann.github.io/authors/</link>
       <atom:link href="https://nrottmann.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>https://nrottmann.github.io/authors/admin/</link>
-      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/authors/admin/</guid>
       <description>&lt;p&gt;Mobile Robots. Sensors. Machine Learning. Dancing.&lt;/p&gt;
 </description>
@@ -24,7 +24,7 @@
     <item>
       <title>Achim Schweikard</title>
       <link>https://nrottmann.github.io/authors/achim-schweikard/</link>
-      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/authors/achim-schweikard/</guid>
       <description></description>
     </item>
@@ -32,8 +32,16 @@
     <item>
       <title>Elmar Rueckert</title>
       <link>https://nrottmann.github.io/authors/elmar-rueckert/</link>
-      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/authors/elmar-rueckert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ralf Bruder</title>
+      <link>https://nrottmann.github.io/authors/ralf-bruder/</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/authors/ralf-bruder/</guid>
       <description></description>
     </item>
     
@@ -58,14 +66,6 @@
       <link>https://nrottmann.github.io/authors/jan-peters/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/authors/jan-peters/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ralf Bruder</title>
-      <link>https://nrottmann.github.io/authors/ralf-bruder/</link>
-      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/authors/ralf-bruder/</guid>
       <description></description>
     </item>
     

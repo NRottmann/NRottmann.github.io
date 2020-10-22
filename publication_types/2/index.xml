@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Nils Rottmann | Homepage</title>
+    <link>https://nrottmann.github.io/publication_types/2/</link>
+      <atom:link href="https://nrottmann.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
+      <title>2</title>
+      <link>https://nrottmann.github.io/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>A novel Chlorophyll Fluorescence based approach for Mowing Area Classiﬁcation</title>
+      <link>https://nrottmann.github.io/publication/sensorjournal2020/</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/publication/sensorjournal2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
