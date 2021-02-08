@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jan-Philip Klose | Nils Rottmann | Homepage</title>
+    <link>https://nrottmann.github.io/authors/jan-philip-klose/</link>
+      <atom:link href="https://nrottmann.github.io/authors/jan-philip-klose/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jan-Philip Klose</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://nrottmann.github.io/img/icon-192.png</url>
+      <title>Jan-Philip Klose</title>
+      <link>https://nrottmann.github.io/authors/jan-philip-klose/</link>
+    </image>
+    
+    <item>
+      <title>Plant Classification based on Chlorophyll Detection for autonomous Gardening</title>
+      <link>https://nrottmann.github.io/thesis/janphilipklose/</link>
+      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/thesis/janphilipklose/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;Upon illumination of a sufficient amount of light, the chlorophyll molecules of
+a plant start to emit photons in the far red region of the light spectrum. This
+phenomenon is also known as chlorophyll fluorescence. In this thesis a classi-
+fier is built that serves as a benchmark for plant classification via chlorophyll a
+fluorescence. A data set of 2500 samples was acquired by illuminating a total
+of 500 leaves gathered from five different plants with seven LEDs. To achieve
+an optimal model, a convolutional neural network (CNN) was designed and
+trained on complete fluorescence spectra. The network achieved an average
+accuracy of 95,7% on classifying five plants. Furthermore, the networks ac-
+curacy on a smaller set of LEDs was tested. In the end, a low cost approach
+was trained and evaluated, reaching an accuracy of 68%. This approach uses
+simulated phototransistor data instead of full spectra acquired with a spec-
+trometer.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

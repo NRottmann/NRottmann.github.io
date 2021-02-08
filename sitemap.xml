@@ -213,6 +213,34 @@
   </url>
   
   <url>
+    <loc>https://nrottmann.github.io/publication_types/7/</loc>
+    <lastmod>2020-08-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/authors/jan-philip-klose/</loc>
+    <lastmod>2020-08-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/machine-learning/</loc>
+    <lastmod>2020-08-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/thesis/janphilipklose/</loc>
+    <lastmod>2020-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/thesis/</loc>
+    <lastmod>2020-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nrottmann.github.io/tags/dynamic-movement-primitives/</loc>
     <lastmod>2020-06-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -263,12 +291,6 @@
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/publication_types/7/</loc>
-    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nrottmann.github.io/thesis/michaelwerner/</loc>
     <lastmod>2019-11-14T00:00:00+00:00</lastmod>
   </url>
@@ -293,11 +315,6 @@
   
   <url>
     <loc>https://nrottmann.github.io/thesis/nicostudt/</loc>
-    <lastmod>2019-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/thesis/</loc>
     <lastmod>2019-11-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -376,12 +393,6 @@
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/tags/machine-learning/</loc>
-    <lastmod>2019-08-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nrottmann.github.io/project/legorobots/</loc>
     <lastmod>2019-08-10T00:00:00+00:00</lastmod>
   </url>
@@ -415,6 +426,17 @@
   <url>
     <loc>https://nrottmann.github.io/project/mirana/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/authors/alexander-walter/</loc>
+    <lastmod>2019-06-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/thesis/alexanderwalter/</loc>
+    <lastmod>2019-06-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
