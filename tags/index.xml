@@ -5,12 +5,28 @@
     <link>https://nrottmann.github.io/tags/</link>
       <atom:link href="https://nrottmann.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 31 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://nrottmann.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>Human-Robot Interaction</title>
+      <link>https://nrottmann.github.io/tags/human-robot-interaction/</link>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/tags/human-robot-interaction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reinforcement Learning</title>
+      <link>https://nrottmann.github.io/tags/reinforcement-learning/</link>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/tags/reinforcement-learning/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Mobile Robotics</title>
@@ -41,14 +57,6 @@
       <link>https://nrottmann.github.io/tags/optimization/</link>
       <pubDate>Sun, 25 Oct 2020 08:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/tags/optimization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reinforcement Learning</title>
-      <link>https://nrottmann.github.io/tags/reinforcement-learning/</link>
-      <pubDate>Sun, 25 Oct 2020 08:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/tags/reinforcement-learning/</guid>
       <description></description>
     </item>
     

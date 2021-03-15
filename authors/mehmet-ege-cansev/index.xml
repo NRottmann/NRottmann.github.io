@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 | Nils Rottmann | Homepage</title>
-    <link>https://nrottmann.github.io/publication_types/2/</link>
-      <atom:link href="https://nrottmann.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
-    <description>2</description>
+    <title>Mehmet Ege Cansev | Nils Rottmann | Homepage</title>
+    <link>https://nrottmann.github.io/authors/mehmet-ege-cansev/</link>
+      <atom:link href="https://nrottmann.github.io/authors/mehmet-ege-cansev/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mehmet Ege Cansev</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 31 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
-      <title>2</title>
-      <link>https://nrottmann.github.io/publication_types/2/</link>
+      <title>Mehmet Ege Cansev</title>
+      <link>https://nrottmann.github.io/authors/mehmet-ege-cansev/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://nrottmann.github.io/publication/aisjournal2021/</link>
       <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/publication/aisjournal2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A novel Chlorophyll Fluorescence based approach for Mowing Area Classiﬁcation</title>
-      <link>https://nrottmann.github.io/publication/sensorjournal2020/</link>
-      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/publication/sensorjournal2020/</guid>
       <description></description>
     </item>
     

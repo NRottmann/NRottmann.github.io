@@ -5,7 +5,7 @@
     <link>https://nrottmann.github.io/authors/</link>
       <atom:link href="https://nrottmann.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 31 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,10 +15,58 @@
     <item>
       <title></title>
       <link>https://nrottmann.github.io/authors/admin/</link>
-      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/authors/admin/</guid>
       <description>&lt;p&gt;Mobile Robots. Sensors. Machine Learning. Dancing.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Adna Bliek</title>
+      <link>https://nrottmann.github.io/authors/adna-bliek/</link>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/authors/adna-bliek/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elmar Rueckert</title>
+      <link>https://nrottmann.github.io/authors/elmar-rueckert/</link>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/authors/elmar-rueckert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Honghu Xue</title>
+      <link>https://nrottmann.github.io/authors/honghu-xue/</link>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/authors/honghu-xue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Luke E. Miller</title>
+      <link>https://nrottmann.github.io/authors/luke-e.-miller/</link>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/authors/luke-e.-miller/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mehmet Ege Cansev</title>
+      <link>https://nrottmann.github.io/authors/mehmet-ege-cansev/</link>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/authors/mehmet-ege-cansev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philipp Beckerle</title>
+      <link>https://nrottmann.github.io/authors/philipp-beckerle/</link>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/authors/philipp-beckerle/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -30,26 +78,10 @@
     </item>
     
     <item>
-      <title>Elmar Rueckert</title>
-      <link>https://nrottmann.github.io/authors/elmar-rueckert/</link>
-      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/authors/elmar-rueckert/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Ralf Bruder</title>
       <link>https://nrottmann.github.io/authors/ralf-bruder/</link>
       <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/authors/ralf-bruder/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Honghu Xue</title>
-      <link>https://nrottmann.github.io/authors/honghu-xue/</link>
-      <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/authors/honghu-xue/</guid>
       <description></description>
     </item>
     

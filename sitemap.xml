@@ -4,12 +4,94 @@
   
   <url>
     <loc>https://nrottmann.github.io/authors/admin/</loc>
-    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://nrottmann.github.io/publication_types/2/</loc>
-    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/authors/adna-bliek/</loc>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/authors/</loc>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/authors/elmar-rueckert/</loc>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/authors/honghu-xue/</loc>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/human-robot-interaction/</loc>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/publication/aisjournal2021/</loc>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/authors/luke-e.-miller/</loc>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/authors/mehmet-ege-cansev/</loc>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/</loc>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/authors/philipp-beckerle/</loc>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/publication_types/</loc>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/publication/</loc>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/reinforcement-learning/</loc>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/</loc>
+    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -25,38 +107,9 @@
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/authors/</loc>
-    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/authors/elmar-rueckert/</loc>
-    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nrottmann.github.io/tags/mobile-robotics/</loc>
     <lastmod>2020-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/</loc>
-    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/publication_types/</loc>
-    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/publication/</loc>
-    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -67,12 +120,6 @@
   
   <url>
     <loc>https://nrottmann.github.io/tags/sensors/</loc>
-    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/tags/</loc>
     <lastmod>2020-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -110,12 +157,6 @@
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/tags/reinforcement-learning/</loc>
-    <lastmod>2020-10-25T08:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nrottmann.github.io/publication_types/1/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -124,12 +165,6 @@
   <url>
     <loc>https://nrottmann.github.io/publication/sensorconf2020/</loc>
     <lastmod>2020-10-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/authors/honghu-xue/</loc>
-    <lastmod>2020-10-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

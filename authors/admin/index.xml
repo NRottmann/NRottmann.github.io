@@ -5,12 +5,20 @@
     <link>https://nrottmann.github.io/authors/admin/</link>
       <atom:link href="https://nrottmann.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Nils Rottmann | Homepage</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 31 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Nils Rottmann | Homepage</title>
       <link>https://nrottmann.github.io/authors/admin/</link>
     </image>
+    
+    <item>
+      <title>Interactive Human-Robot Skill Transfer: A Review of Learning Methods and User Experience</title>
+      <link>https://nrottmann.github.io/publication/aisjournal2021/</link>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/publication/aisjournal2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A novel Chlorophyll Fluorescence based approach for Mowing Area Classiﬁcation</title>
@@ -116,7 +124,7 @@
     <item>
       <title></title>
       <link>https://nrottmann.github.io/authors/admin/</link>
-      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/authors/admin/</guid>
       <description>&lt;p&gt;Mobile Robots. Sensors. Machine Learning. Dancing.&lt;/p&gt;
 </description>
