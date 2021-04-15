@@ -3,6 +3,70 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nrottmann.github.io/publication_types/7/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/authors/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/authors/leander-busch/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/thesis/leanderbusch/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/machine-learning/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/mobile-robotics/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/planning/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/publication_types/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/thesis/</loc>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nrottmann.github.io/authors/admin/</loc>
     <lastmod>2021-01-31T00:00:00+00:00</lastmod>
   </url>
@@ -15,12 +79,6 @@
   
   <url>
     <loc>https://nrottmann.github.io/authors/adna-bliek/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/authors/</loc>
     <lastmod>2021-01-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -61,19 +119,7 @@
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nrottmann.github.io/authors/philipp-beckerle/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/publication_types/</loc>
     <lastmod>2021-01-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -90,24 +136,12 @@
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/tags/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nrottmann.github.io/publication/sensorjournal2020/</loc>
     <lastmod>2020-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://nrottmann.github.io/authors/achim-schweikard/</loc>
-    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/tags/mobile-robotics/</loc>
     <lastmod>2020-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -219,12 +253,6 @@
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/tags/planning/</loc>
-    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nrottmann.github.io/project/</loc>
     <lastmod>2020-10-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -248,30 +276,13 @@
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/publication_types/7/</loc>
-    <lastmod>2020-08-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nrottmann.github.io/authors/jan-philip-klose/</loc>
     <lastmod>2020-08-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/tags/machine-learning/</loc>
-    <lastmod>2020-08-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nrottmann.github.io/thesis/janphilipklose/</loc>
-    <lastmod>2020-08-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/thesis/</loc>
     <lastmod>2020-08-27T00:00:00+00:00</lastmod>
   </url>
   

@@ -5,12 +5,41 @@
     <link>https://nrottmann.github.io/tags/mobile-robotics/</link>
       <atom:link href="https://nrottmann.github.io/tags/mobile-robotics/index.xml" rel="self" type="application/rss+xml" />
     <description>Mobile Robotics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Mobile Robotics</title>
       <link>https://nrottmann.github.io/tags/mobile-robotics/</link>
     </image>
+    
+    <item>
+      <title>Learning Motion Models for Local Path Planning Strategies</title>
+      <link>https://nrottmann.github.io/thesis/leanderbusch/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/thesis/leanderbusch/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;The Segway Loomo is a self-balancing segway robot, which is constantly balanced
+by an internal control system. A local path planning strategy was developed in
+advance for this robot. For local path planning, a motion model of the robot
+is needed to determine the effect of velocity commands on the robot’s pose. In
+the implemented local path planner, a simple motion model of the robot is used,
+which does not model the effect of the segway robot’s internal control on its
+motion. In this work, it was investigated whether a more accurate motion model
+for the Segway Loomo robot can be learned by using artificial neural networks
+to improve the local path planning for this robot. For this purpose, different
+architectures of feedforward networks were tested. The neural networks were
+trained and evaluated using recorded motion data of the segway robot. The
+best learned model was validated by using a standard differential drive motion
+model as a reference. For the validation of the learned model, the accuracy of
+both motion models was examined on the recorded motion data. On average,
+the learned model is 59.48 % more accurate in determining the position of the
+robot at the next time step and 24.61 % more accurate in determining the new
+orientation of the robot than the differential drive motion model.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A novel Chlorophyll Fluorescence based approach for Mowing Area Classiﬁcation</title>
@@ -194,7 +223,7 @@ compared to the random walk.&lt;/p&gt;
 
 &lt;p&gt;This is a tutorial on how to set up your Raspberry Pi for controlling a mobile robot. Therefore, we will use the Robot Operating System (ROS) together with different connection possibilities (e.g. WLAN, Mobile Net, &amp;hellip;).&lt;/p&gt;
 
-&lt;p&gt;A complete Image with existing ROS installation and WLAN access point can be found &lt;a href=&#34;https://drive.google.com/file/d/14kYuFTbEE-RQ3aikde9BUBpjqiKg_Hy9/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. It has everything installed and configured until including the &lt;a href=&#34;#WLAN&#34;&gt;WLAN Configuration&lt;/a&gt; section.&lt;/p&gt;
+&lt;p&gt;A complete Image with existing ROS installation and WLAN access point can be found &lt;a href=&#34;https://drive.google.com/file/d/14kYuFTbEE-RQ3aikde9BUBpjqiKg_Hy9/view?usp=sharing&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. It has everything installed and configured until including the &lt;a href=&#34;#UART&#34;&gt;Enable SPI and UART Connection&lt;/a&gt; section.&lt;/p&gt;
 
 &lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
 
@@ -222,7 +251,7 @@ compared to the random walk.&lt;/p&gt;
 
 &lt;h2 id=&#34;install-raspberry-pi-os-a-name-instalos-a&#34;&gt;Install Raspberry Pi OS &lt;a name=&#34;instalOS&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
 
-&lt;p&gt;First, we install Raspberry Pi OS onto the Raspberry Pi. There are different Images available (e.g. desktop, Lite) which can be found &lt;a href=&#34;https://www.raspberrypi.org/downloads/raspberry-pi-os/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. We will use the Lite version to not burden our robot with unnecessary computational load. Download the ZIP folder of your chosen Raspberry OS version and load it onto a Micro SD card (e.g. 32 GB). We use the Win32 Disk Manager (Windows), which can be found &lt;a href=&#34;https://www.chip.de/downloads/Win32-Disk-Imager_46121030.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Therefore, unpack the downloaded ZIP folder (it contains an .img file of the OS), start the Win32 Disk Manager, choose the .img-file and the right data medium and start writing onto the SD card.&lt;/p&gt;
+&lt;p&gt;First, we install Raspberry Pi OS onto the Raspberry Pi. There are different Images available (e.g. desktop, Lite) which can be found &lt;a href=&#34;https://www.raspberrypi.org/downloads/raspberry-pi-os/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. We will use the Desktop version (Raspberry Pi Os (32 Bit)). The easiest way is to use the Rapsberry Pi Imager to load the image onto your SD card (e.g. 32 GB). Optional you can download the ZIP folder of your chosen Raspberry OS version and load it onto a Micro SD card with your own software, e.g. the Win32 Disk Manager (Windows), which can be found &lt;a href=&#34;https://www.chip.de/downloads/Win32-Disk-Imager_46121030.html&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Therefore, unpack the downloaded ZIP folder (it contains an .img file of the OS), start the Win32 Disk Manager, choose the .img-file and the right data medium and start writing onto the SD card.&lt;/p&gt;
 
 &lt;p float=&#34;left&#34; align=&#34;middle&#34;&gt;
   &lt;img src=&#34;./images/WinDisk32.png&#34; width=&#34;400 hspace=&#34;0&#34; /&gt;
@@ -535,7 +564,22 @@ SUBSYSTEM==&amp;quot;tty&amp;quot;, KERNELS==&amp;quot;1-1.5&amp;quot;, SYMLINK+
   &lt;img src=&#34;./images/USBPorts.png&#34; width=&#34;800 hspace=&#34;0&#34; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;To apply the new rules we have to reload them with the udevadm manager as super user&lt;/p&gt;
+&lt;p&gt;The KERNELS might differ in your case, dependent on your hardware settings. To find out your KERNELS for the individual USB ports, plug a USB device into each port (one by one) and check&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;udevadm info -a -p $(udevadm info -q path -n /dev/ttyACM0)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Your will receive the current serial connection information and will find something like&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;...
+
+looking at parent device &#39;/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.3&#39;:
+    KERNELS==&amp;quot;1-3:1.3&amp;quot;
+
+...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;where everything before the colon, thus &amp;ldquo;1-3&amp;rdquo;, would be your entry for the KERNELS in the udev rules. To apply the new rules we have to reload them with the udevadm manager as super user&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;sudo su
 sudo udevadm control --reload-rules &amp;amp;&amp;amp; udevadm trigger

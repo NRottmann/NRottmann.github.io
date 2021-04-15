@@ -668,7 +668,7 @@
 
 <p>This is a tutorial on how to set up your Raspberry Pi for controlling a mobile robot. Therefore, we will use the Robot Operating System (ROS) together with different connection possibilities (e.g. WLAN, Mobile Net, &hellip;).</p>
 
-<p>A complete Image with existing ROS installation and WLAN access point can be found <a href="https://drive.google.com/file/d/14kYuFTbEE-RQ3aikde9BUBpjqiKg_Hy9/view?usp=sharing" target="_blank">here</a>. It has everything installed and configured until including the <a href="#WLAN">WLAN Configuration</a> section.</p>
+<p>A complete Image with existing ROS installation and WLAN access point can be found <a href="https://drive.google.com/file/d/14kYuFTbEE-RQ3aikde9BUBpjqiKg_Hy9/view?usp=sharing" target="_blank">here</a>. It has everything installed and configured until including the <a href="#UART">Enable SPI and UART Connection</a> section.</p>
 
 <h2 id="table-of-contents">Table of Contents</h2>
 
@@ -696,7 +696,7 @@
 
 <h2 id="install-raspberry-pi-os-a-name-instalos-a">Install Raspberry Pi OS <a name="instalOS"></a></h2>
 
-<p>First, we install Raspberry Pi OS onto the Raspberry Pi. There are different Images available (e.g. desktop, Lite) which can be found <a href="https://www.raspberrypi.org/downloads/raspberry-pi-os/" target="_blank">here</a>. We will use the Lite version to not burden our robot with unnecessary computational load. Download the ZIP folder of your chosen Raspberry OS version and load it onto a Micro SD card (e.g. 32 GB). We use the Win32 Disk Manager (Windows), which can be found <a href="https://www.chip.de/downloads/Win32-Disk-Imager_46121030.html" target="_blank">here</a>. Therefore, unpack the downloaded ZIP folder (it contains an .img file of the OS), start the Win32 Disk Manager, choose the .img-file and the right data medium and start writing onto the SD card.</p>
+<p>First, we install Raspberry Pi OS onto the Raspberry Pi. There are different Images available (e.g. desktop, Lite) which can be found <a href="https://www.raspberrypi.org/downloads/raspberry-pi-os/" target="_blank">here</a>. We will use the Desktop version (Raspberry Pi Os (32 Bit)). The easiest way is to use the Rapsberry Pi Imager to load the image onto your SD card (e.g. 32 GB). Optional you can download the ZIP folder of your chosen Raspberry OS version and load it onto a Micro SD card with your own software, e.g. the Win32 Disk Manager (Windows), which can be found <a href="https://www.chip.de/downloads/Win32-Disk-Imager_46121030.html" target="_blank">here</a>. Therefore, unpack the downloaded ZIP folder (it contains an .img file of the OS), start the Win32 Disk Manager, choose the .img-file and the right data medium and start writing onto the SD card.</p>
 
 <p float="left" align="middle">
   <img src="./images/WinDisk32.png" width="400 hspace="0" />
@@ -1009,7 +1009,22 @@ SUBSYSTEM==&quot;tty&quot;, KERNELS==&quot;1-1.5&quot;, SYMLINK+=&quot;sensor04&
   <img src="./images/USBPorts.png" width="800 hspace="0" />
 </p>
 
-<p>To apply the new rules we have to reload them with the udevadm manager as super user</p>
+<p>The KERNELS might differ in your case, dependent on your hardware settings. To find out your KERNELS for the individual USB ports, plug a USB device into each port (one by one) and check</p>
+
+<pre><code class="language-shell">udevadm info -a -p $(udevadm info -q path -n /dev/ttyACM0)
+</code></pre>
+
+<p>Your will receive the current serial connection information and will find something like</p>
+
+<pre><code class="language-shell">...
+
+looking at parent device '/devices/pci0000:00/0000:00:14.0/usb1/1-3/1-3:1.3':
+    KERNELS==&quot;1-3:1.3&quot;
+
+...
+</code></pre>
+
+<p>where everything before the colon, thus &ldquo;1-3&rdquo;, would be your entry for the KERNELS in the udev rules. To apply the new rules we have to reload them with the udevadm manager as super user</p>
 
 <pre><code class="language-shell">sudo su
 sudo udevadm control --reload-rules &amp;&amp; udevadm trigger
@@ -1364,7 +1379,7 @@ sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release 
     <div class="media-body">
       <h5 class="card-title" itemprop="name"><a href="https://nrottmann.github.io/">Nils Rottmann</a></h5>
       <h6 class="card-subtitle">Research Scientist for Autonomous and Intelligent Systems</h6>
-      <p class="card-text" itemprop="description">With January 2018, Nils Rottmann is a PhD student and research scientist at the Institute for Robotics and Cognitive Systems at the University of Luebeck. In his doctoral study, with the title “Optimal Sensor Development, Navigation and Learning Strategies for Autonomous Systems”, he develops low-cost sensor systems and investigates probabilistic learning and modeling approaches. His research addresses the challenges of learning adaptive control strategies from few and sparse data and to predict and plan complex motions in dynamical systems. He holds a master’s degree in Theoretical Mechanical Engineering from the Hamburg University of Technology, Germany. Nils Rottmann graduated with honors in December 2017 with a thesis entitled „Geometric Control and Stochastic Trajectory Planning for Underwater Robotic Systems“.</p>
+      <p class="card-text" itemprop="description">With January 2018, Nils Rottmann is a PhD student and research scientist at the Institute for Robotics and Cognitive Systems at the University of Luebeck. In his doctoral study, with the title “Smart Sensor, Navigation and Learning Strategies for low-cost lawn care Systems”, he develops low-cost sensor systems and investigates probabilistic learning and modeling approaches. His research addresses the challenges of learning adaptive control strategies from few and sparse data and to predict and plan complex motions in dynamical systems. He holds a master’s degree in Theoretical Mechanical Engineering from the Hamburg University of Technology, Germany. Nils Rottmann graduated with honors in December 2017 with a thesis entitled „Geometric Control and Stochastic Trajectory Planning for Underwater Robotic Systems“.</p>
       <ul class="network-icon" aria-hidden="true">
         
           

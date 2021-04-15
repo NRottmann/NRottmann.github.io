@@ -5,12 +5,20 @@
     <link>https://nrottmann.github.io/authors/</link>
       <atom:link href="https://nrottmann.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 31 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Authors</title>
       <link>https://nrottmann.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title>Leander Busch</title>
+      <link>https://nrottmann.github.io/authors/leander-busch/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/authors/leander-busch/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>

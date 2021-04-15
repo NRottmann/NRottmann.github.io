@@ -5,12 +5,41 @@
     <link>https://nrottmann.github.io/publication_types/7/</link>
       <atom:link href="https://nrottmann.github.io/publication_types/7/index.xml" rel="self" type="application/rss+xml" />
     <description>7</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>7</title>
       <link>https://nrottmann.github.io/publication_types/7/</link>
     </image>
+    
+    <item>
+      <title>Learning Motion Models for Local Path Planning Strategies</title>
+      <link>https://nrottmann.github.io/thesis/leanderbusch/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/thesis/leanderbusch/</guid>
+      <description>
+
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+
+&lt;p&gt;The Segway Loomo is a self-balancing segway robot, which is constantly balanced
+by an internal control system. A local path planning strategy was developed in
+advance for this robot. For local path planning, a motion model of the robot
+is needed to determine the effect of velocity commands on the robot’s pose. In
+the implemented local path planner, a simple motion model of the robot is used,
+which does not model the effect of the segway robot’s internal control on its
+motion. In this work, it was investigated whether a more accurate motion model
+for the Segway Loomo robot can be learned by using artificial neural networks
+to improve the local path planning for this robot. For this purpose, different
+architectures of feedforward networks were tested. The neural networks were
+trained and evaluated using recorded motion data of the segway robot. The
+best learned model was validated by using a standard differential drive motion
+model as a reference. For the validation of the learned model, the accuracy of
+both motion models was examined on the recorded motion data. On average,
+the learned model is 59.48 % more accurate in determining the position of the
+robot at the next time step and 24.61 % more accurate in determining the new
+orientation of the robot than the differential drive motion model.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Plant Classification based on Chlorophyll Detection for autonomous Gardening</title>

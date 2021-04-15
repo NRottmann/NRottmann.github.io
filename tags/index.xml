@@ -5,12 +5,36 @@
     <link>https://nrottmann.github.io/tags/</link>
       <atom:link href="https://nrottmann.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 31 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://nrottmann.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://nrottmann.github.io/tags/machine-learning/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile Robotics</title>
+      <link>https://nrottmann.github.io/tags/mobile-robotics/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/tags/mobile-robotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Planning</title>
+      <link>https://nrottmann.github.io/tags/planning/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/tags/planning/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Human-Robot Interaction</title>
@@ -25,14 +49,6 @@
       <link>https://nrottmann.github.io/tags/reinforcement-learning/</link>
       <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/tags/reinforcement-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mobile Robotics</title>
-      <link>https://nrottmann.github.io/tags/mobile-robotics/</link>
-      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/tags/mobile-robotics/</guid>
       <description></description>
     </item>
     
@@ -85,14 +101,6 @@
     </item>
     
     <item>
-      <title>Planning</title>
-      <link>https://nrottmann.github.io/tags/planning/</link>
-      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/tags/planning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ROS</title>
       <link>https://nrottmann.github.io/tags/ros/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
@@ -105,14 +113,6 @@
       <link>https://nrottmann.github.io/tags/slam/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/tags/slam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>https://nrottmann.github.io/tags/machine-learning/</link>
-      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     
