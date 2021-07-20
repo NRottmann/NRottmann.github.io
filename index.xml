@@ -5,12 +5,28 @@
     <link>https://nrottmann.github.io/</link>
       <atom:link href="https://nrottmann.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Nils Rottmann | Homepage</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Nils Rottmann | Homepage</title>
       <link>https://nrottmann.github.io/</link>
     </image>
+    
+    <item>
+      <title>Loop Closure Detection in Closed Environments</title>
+      <link>https://nrottmann.github.io/publication/ecmr2021/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/publication/ecmr2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ROS-Mobile</title>
+      <link>https://nrottmann.github.io/project/ros_mobile/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/project/ros_mobile/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Learning Motion Models for Local Path Planning Strategies</title>
@@ -106,7 +122,7 @@ orientation of the robot than the differential drive motion model.&lt;/p&gt;
     </item>
     
     <item>
-      <title>A-DRZ</title>
+      <title>A-DRZ (expired)</title>
       <link>https://nrottmann.github.io/project/a_drz/</link>
       <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/project/a_drz/</guid>
@@ -161,14 +177,6 @@ trometer.&lt;/p&gt;
       <guid>https://nrottmann.github.io/post/mlss2020/</guid>
       <description>&lt;p&gt;I had the opportunity to attend the MLSS 2020. I got a lot of interesting insights into the different fields of Machine Learning such as Causality, Fairness, Reinforcement Learning and many more. Most of the lectures hold during the summer school are available at YouTube. For further information, just visit the &lt;a href=&#34;http://mlss.tuebingen.mpg.de/2020/&#34; target=&#34;_blank&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>ROS-Mobile</title>
-      <link>https://nrottmann.github.io/project/ros_mobile/</link>
-      <pubDate>Fri, 22 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/project/ros_mobile/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -302,7 +310,7 @@ compared to the random walk.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Our Common Future</title>
+      <title>Our Common Future (expired)</title>
       <link>https://nrottmann.github.io/project/legorobots/</link>
       <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/project/legorobots/</guid>
@@ -1002,7 +1010,7 @@ sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release 
     </item>
     
     <item>
-      <title>TRAIN</title>
+      <title>TRAIN (expired)</title>
       <link>https://nrottmann.github.io/project/train/</link>
       <pubDate>Sat, 10 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/project/train/</guid>
@@ -1010,7 +1018,7 @@ sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release 
     </item>
     
     <item>
-      <title>MIRANA</title>
+      <title>MIRANA (expired)</title>
       <link>https://nrottmann.github.io/project/mirana/</link>
       <pubDate>Wed, 07 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/project/mirana/</guid>

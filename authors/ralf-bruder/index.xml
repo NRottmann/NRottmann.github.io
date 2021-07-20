@@ -5,12 +5,20 @@
     <link>https://nrottmann.github.io/authors/ralf-bruder/</link>
       <atom:link href="https://nrottmann.github.io/authors/ralf-bruder/index.xml" rel="self" type="application/rss+xml" />
     <description>Ralf Bruder</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Ralf Bruder</title>
       <link>https://nrottmann.github.io/authors/ralf-bruder/</link>
     </image>
+    
+    <item>
+      <title>Loop Closure Detection in Closed Environments</title>
+      <link>https://nrottmann.github.io/publication/ecmr2021/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/publication/ecmr2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A novel Chlorophyll Fluorescence based approach for Mowing Area Classiﬁcation</title>

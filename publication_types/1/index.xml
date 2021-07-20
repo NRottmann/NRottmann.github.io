@@ -5,12 +5,20 @@
     <link>https://nrottmann.github.io/publication_types/1/</link>
       <atom:link href="https://nrottmann.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://nrottmann.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>Loop Closure Detection in Closed Environments</title>
+      <link>https://nrottmann.github.io/publication/ecmr2021/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/publication/ecmr2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Exploiting Chlorophyll Fluorescense for building robust low-cost Mowing Area Detectors</title>

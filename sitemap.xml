@@ -3,13 +3,111 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nrottmann.github.io/publication_types/7/</loc>
-    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+    <loc>https://nrottmann.github.io/authors/admin/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/publication_types/1/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nrottmann.github.io/authors/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/authors/elmar-rueckert/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/publication/ecmr2021/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/mobile-robotics/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/navigation/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/planning/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/publication_types/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/publication/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/authors/ralf-bruder/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/authors/robin-denz/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/mobile-devices/</loc>
+    <lastmod>2021-05-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/project/</loc>
+    <lastmod>2021-05-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/ros/</loc>
+    <lastmod>2021-05-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/project/ros_mobile/</loc>
+    <lastmod>2021-05-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/publication_types/7/</loc>
     <lastmod>2021-02-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -32,43 +130,8 @@
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/tags/mobile-robotics/</loc>
-    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/</loc>
-    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/tags/planning/</loc>
-    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/publication_types/</loc>
-    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/tags/</loc>
-    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nrottmann.github.io/thesis/</loc>
     <lastmod>2021-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/authors/admin/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -79,12 +142,6 @@
   
   <url>
     <loc>https://nrottmann.github.io/authors/adna-bliek/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/authors/elmar-rueckert/</loc>
     <lastmod>2021-01-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -125,11 +182,6 @@
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/publication/</loc>
-    <lastmod>2021-01-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nrottmann.github.io/tags/reinforcement-learning/</loc>
     <lastmod>2021-01-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -142,12 +194,6 @@
   
   <url>
     <loc>https://nrottmann.github.io/authors/achim-schweikard/</loc>
-    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/authors/ralf-bruder/</loc>
     <lastmod>2020-10-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -188,12 +234,6 @@
   <url>
     <loc>https://nrottmann.github.io/talk/</loc>
     <lastmod>2020-10-25T08:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/publication_types/1/</loc>
-    <lastmod>2020-10-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -242,24 +282,6 @@
   
   <url>
     <loc>https://nrottmann.github.io/tags/localization/</loc>
-    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/tags/navigation/</loc>
-    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/project/</loc>
-    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/tags/ros/</loc>
     <lastmod>2020-10-22T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -326,17 +348,6 @@
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/tags/mobile-devices/</loc>
-    <lastmod>2020-05-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/project/ros_mobile/</loc>
-    <lastmod>2020-05-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nrottmann.github.io/thesis/michaelwerner/</loc>
     <lastmod>2019-11-14T00:00:00+00:00</lastmod>
   </url>
@@ -367,12 +378,6 @@
   <url>
     <loc>https://nrottmann.github.io/thesis/robindenz/</loc>
     <lastmod>2019-11-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/authors/robin-denz/</loc>
-    <lastmod>2019-11-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
