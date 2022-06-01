@@ -5,7 +5,7 @@
     <link>https://nrottmann.github.io/tags/</link>
       <atom:link href="https://nrottmann.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Tags</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
+      <title>Localization</title>
+      <link>https://nrottmann.github.io/tags/localization/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/tags/localization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mobile Robotics</title>
       <link>https://nrottmann.github.io/tags/mobile-robotics/</link>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/tags/mobile-robotics/</guid>
       <description></description>
     </item>
@@ -23,7 +31,7 @@
     <item>
       <title>Navigation</title>
       <link>https://nrottmann.github.io/tags/navigation/</link>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/tags/navigation/</guid>
       <description></description>
     </item>
@@ -31,8 +39,32 @@
     <item>
       <title>Planning</title>
       <link>https://nrottmann.github.io/tags/planning/</link>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/tags/planning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ROS</title>
+      <link>https://nrottmann.github.io/tags/ros/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/tags/ros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SLAM</title>
+      <link>https://nrottmann.github.io/tags/slam/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/tags/slam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sensors</title>
+      <link>https://nrottmann.github.io/tags/sensors/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/tags/sensors/</guid>
       <description></description>
     </item>
     
@@ -41,14 +73,6 @@
       <link>https://nrottmann.github.io/tags/mobile-devices/</link>
       <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/tags/mobile-devices/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ROS</title>
-      <link>https://nrottmann.github.io/tags/ros/</link>
-      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/tags/ros/</guid>
       <description></description>
     </item>
     
@@ -77,14 +101,6 @@
     </item>
     
     <item>
-      <title>Sensors</title>
-      <link>https://nrottmann.github.io/tags/sensors/</link>
-      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/tags/sensors/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Humanoids</title>
       <link>https://nrottmann.github.io/tags/humanoids/</link>
       <pubDate>Sun, 25 Oct 2020 08:00:00 +0000</pubDate>
@@ -105,22 +121,6 @@
       <link>https://nrottmann.github.io/tags/mapping/</link>
       <pubDate>Sun, 25 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://nrottmann.github.io/tags/mapping/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Localization</title>
-      <link>https://nrottmann.github.io/tags/localization/</link>
-      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/tags/localization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SLAM</title>
-      <link>https://nrottmann.github.io/tags/slam/</link>
-      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/tags/slam/</guid>
       <description></description>
     </item>
     

@@ -5,12 +5,20 @@
     <link>https://nrottmann.github.io/tags/navigation/</link>
       <atom:link href="https://nrottmann.github.io/tags/navigation/index.xml" rel="self" type="application/rss+xml" />
     <description>Navigation</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Navigation</title>
       <link>https://nrottmann.github.io/tags/navigation/</link>
     </image>
+    
+    <item>
+      <title>B75i</title>
+      <link>https://nrottmann.github.io/project/b75i/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/project/b75i/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Probabilistic Approach for Complete Coverage Path Planning with low-cost Systems</title>
