@@ -5,12 +5,20 @@
     <link>https://nrottmann.github.io/tags/navigation/</link>
       <atom:link href="https://nrottmann.github.io/tags/navigation/index.xml" rel="self" type="application/rss+xml" />
     <description>Navigation</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 26 Jan 2023 08:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Navigation</title>
       <link>https://nrottmann.github.io/tags/navigation/</link>
     </image>
+    
+    <item>
+      <title>Mobile Robotics - More than just localization and planning</title>
+      <link>https://nrottmann.github.io/talk/2023leoben/</link>
+      <pubDate>Thu, 26 Jan 2023 08:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/talk/2023leoben/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>B75i</title>
@@ -38,9 +46,9 @@
     
     <item>
       <title>Autumn School</title>
-      <link>https://nrottmann.github.io/talk/autumnschool2020/</link>
+      <link>https://nrottmann.github.io/talk/2020autumnschool/</link>
       <pubDate>Mon, 12 Oct 2020 08:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/talk/autumnschool2020/</guid>
+      <guid>https://nrottmann.github.io/talk/2020autumnschool/</guid>
       <description></description>
     </item>
     
@@ -87,33 +95,33 @@ compared to the random walk.&lt;/p&gt;
     
     <item>
       <title>MIRANA - A mobile robotic assistant</title>
-      <link>https://nrottmann.github.io/talk/nook2019/</link>
+      <link>https://nrottmann.github.io/talk/2019nook/</link>
       <pubDate>Sat, 09 Nov 2019 16:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/talk/nook2019/</guid>
+      <guid>https://nrottmann.github.io/talk/2019nook/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Autumn School</title>
-      <link>https://nrottmann.github.io/talk/autumnschool2019/</link>
+      <link>https://nrottmann.github.io/talk/2019autumnschool/</link>
       <pubDate>Tue, 08 Oct 2019 08:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/talk/autumnschool2019/</guid>
+      <guid>https://nrottmann.github.io/talk/2019autumnschool/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Healthcare Hackathon Kiel - MIRANA Introduction</title>
-      <link>https://nrottmann.github.io/talk/hhkiel2019/</link>
+      <link>https://nrottmann.github.io/talk/2019hhkiel/</link>
       <pubDate>Thu, 12 Sep 2019 12:50:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/talk/hhkiel2019/</guid>
+      <guid>https://nrottmann.github.io/talk/2019hhkiel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Think at IBM</title>
-      <link>https://nrottmann.github.io/talk/thinkatibm2019/</link>
+      <link>https://nrottmann.github.io/talk/2019thinkatibm/</link>
       <pubDate>Tue, 12 Mar 2019 12:50:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/talk/thinkatibm2019/</guid>
+      <guid>https://nrottmann.github.io/talk/2019thinkatibm/</guid>
       <description></description>
     </item>
     

@@ -3,30 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nrottmann.github.io/tags/ce-certification/</loc>
+    <lastmod>2023-01-26T08:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/mobile-robotics/</loc>
+    <lastmod>2023-01-26T08:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/talk/2023leoben/</loc>
+    <lastmod>2023-01-26T08:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/navigation/</loc>
+    <lastmod>2023-01-26T08:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/</loc>
+    <lastmod>2023-01-26T08:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/talk/</loc>
+    <lastmod>2023-01-26T08:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/sensors/</loc>
+    <lastmod>2023-01-26T08:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nrottmann.github.io/tags/</loc>
+    <lastmod>2023-01-26T08:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://nrottmann.github.io/project/b75i/</loc>
     <lastmod>2022-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://nrottmann.github.io/tags/localization/</loc>
-    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/tags/mobile-robotics/</loc>
-    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/tags/navigation/</loc>
-    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/</loc>
     <lastmod>2022-06-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -51,18 +79,6 @@
   
   <url>
     <loc>https://nrottmann.github.io/tags/slam/</loc>
-    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/tags/sensors/</loc>
-    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/tags/</loc>
     <lastmod>2022-06-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -222,7 +238,7 @@
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/talk/sensors2020/</loc>
+    <loc>https://nrottmann.github.io/talk/2020sensors/</loc>
     <lastmod>2020-10-25T08:00:00+00:00</lastmod>
   </url>
   
@@ -233,7 +249,7 @@
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/talk/iros2020/</loc>
+    <loc>https://nrottmann.github.io/talk/2020iros/</loc>
     <lastmod>2020-10-25T08:00:00+00:00</lastmod>
   </url>
   
@@ -244,12 +260,7 @@
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/talk/irosws2020/</loc>
-    <lastmod>2020-10-25T08:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nrottmann.github.io/talk/</loc>
+    <loc>https://nrottmann.github.io/talk/2020irosws/</loc>
     <lastmod>2020-10-25T08:00:00+00:00</lastmod>
   </url>
   
@@ -298,7 +309,7 @@
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/talk/autumnschool2020/</loc>
+    <loc>https://nrottmann.github.io/talk/2020autumnschool/</loc>
     <lastmod>2020-10-12T08:00:00+00:00</lastmod>
   </url>
   
@@ -386,7 +397,7 @@
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/talk/nook2019/</loc>
+    <loc>https://nrottmann.github.io/talk/2019nook/</loc>
     <lastmod>2019-11-09T16:00:00+00:00</lastmod>
   </url>
   
@@ -401,12 +412,12 @@
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/talk/autumnschool2019/</loc>
+    <loc>https://nrottmann.github.io/talk/2019autumnschool/</loc>
     <lastmod>2019-10-08T08:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/talk/hhkiel2019/</loc>
+    <loc>https://nrottmann.github.io/talk/2019hhkiel/</loc>
     <lastmod>2019-09-12T12:50:00+00:00</lastmod>
   </url>
   
@@ -438,7 +449,7 @@
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/talk/hhberlin2019/</loc>
+    <loc>https://nrottmann.github.io/talk/2019hhberlin/</loc>
     <lastmod>2019-09-03T12:50:00+00:00</lastmod>
   </url>
   
@@ -496,7 +507,7 @@
   </url>
   
   <url>
-    <loc>https://nrottmann.github.io/talk/thinkatibm2019/</loc>
+    <loc>https://nrottmann.github.io/talk/2019thinkatibm/</loc>
     <lastmod>2019-03-12T12:50:00+00:00</lastmod>
   </url>
   

@@ -5,7 +5,7 @@
     <link>https://nrottmann.github.io/talk/</link>
       <atom:link href="https://nrottmann.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 25 Oct 2020 08:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 26 Jan 2023 08:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nrottmann.github.io/img/icon-192.png</url>
       <title>Recent &amp; Upcoming Talks</title>
@@ -13,74 +13,82 @@
     </image>
     
     <item>
+      <title>Mobile Robotics - More than just localization and planning</title>
+      <link>https://nrottmann.github.io/talk/2023leoben/</link>
+      <pubDate>Thu, 26 Jan 2023 08:00:00 +0000</pubDate>
+      <guid>https://nrottmann.github.io/talk/2023leoben/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Exploiting Chlorophyll Fluorescense for building robust low-cost Mowing Area Detectors</title>
-      <link>https://nrottmann.github.io/talk/sensors2020/</link>
+      <link>https://nrottmann.github.io/talk/2020sensors/</link>
       <pubDate>Sun, 25 Oct 2020 08:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/talk/sensors2020/</guid>
+      <guid>https://nrottmann.github.io/talk/2020sensors/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning Hierarchical Acquisition Functions for Bayesian Optimization</title>
-      <link>https://nrottmann.github.io/talk/iros2020/</link>
+      <link>https://nrottmann.github.io/talk/2020iros/</link>
       <pubDate>Sun, 25 Oct 2020 08:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/talk/iros2020/</guid>
+      <guid>https://nrottmann.github.io/talk/2020iros/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Parameter Optimization for Loop Closure Detection in Closed Environments</title>
-      <link>https://nrottmann.github.io/talk/irosws2020/</link>
+      <link>https://nrottmann.github.io/talk/2020irosws/</link>
       <pubDate>Sun, 25 Oct 2020 08:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/talk/irosws2020/</guid>
+      <guid>https://nrottmann.github.io/talk/2020irosws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Autumn School</title>
-      <link>https://nrottmann.github.io/talk/autumnschool2020/</link>
+      <link>https://nrottmann.github.io/talk/2020autumnschool/</link>
       <pubDate>Mon, 12 Oct 2020 08:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/talk/autumnschool2020/</guid>
+      <guid>https://nrottmann.github.io/talk/2020autumnschool/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MIRANA - A mobile robotic assistant</title>
-      <link>https://nrottmann.github.io/talk/nook2019/</link>
+      <link>https://nrottmann.github.io/talk/2019nook/</link>
       <pubDate>Sat, 09 Nov 2019 16:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/talk/nook2019/</guid>
+      <guid>https://nrottmann.github.io/talk/2019nook/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Autumn School</title>
-      <link>https://nrottmann.github.io/talk/autumnschool2019/</link>
+      <link>https://nrottmann.github.io/talk/2019autumnschool/</link>
       <pubDate>Tue, 08 Oct 2019 08:00:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/talk/autumnschool2019/</guid>
+      <guid>https://nrottmann.github.io/talk/2019autumnschool/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Healthcare Hackathon Kiel - MIRANA Introduction</title>
-      <link>https://nrottmann.github.io/talk/hhkiel2019/</link>
+      <link>https://nrottmann.github.io/talk/2019hhkiel/</link>
       <pubDate>Thu, 12 Sep 2019 12:50:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/talk/hhkiel2019/</guid>
+      <guid>https://nrottmann.github.io/talk/2019hhkiel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Healthcare Hackathon Berlin Speech</title>
-      <link>https://nrottmann.github.io/talk/hhberlin2019/</link>
+      <link>https://nrottmann.github.io/talk/2019hhberlin/</link>
       <pubDate>Tue, 03 Sep 2019 12:50:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/talk/hhberlin2019/</guid>
+      <guid>https://nrottmann.github.io/talk/2019hhberlin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Think at IBM</title>
-      <link>https://nrottmann.github.io/talk/thinkatibm2019/</link>
+      <link>https://nrottmann.github.io/talk/2019thinkatibm/</link>
       <pubDate>Tue, 12 Mar 2019 12:50:00 +0000</pubDate>
-      <guid>https://nrottmann.github.io/talk/thinkatibm2019/</guid>
+      <guid>https://nrottmann.github.io/talk/2019thinkatibm/</guid>
       <description></description>
     </item>
     
